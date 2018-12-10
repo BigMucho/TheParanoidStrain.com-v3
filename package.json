@@ -5,6 +5,8 @@
   "author": "Austin Green",
   "dependencies": {
     "bulma": "^0.7.0",
+    "@emotion/core": "^10.0.4",
+    "@emotion/styled": "^10.0.4",
     "gatsby": "^2.0.0",
     "gatsby-image": "^2.0.10",
     "gatsby-plugin-netlify": "^2.0.0",
