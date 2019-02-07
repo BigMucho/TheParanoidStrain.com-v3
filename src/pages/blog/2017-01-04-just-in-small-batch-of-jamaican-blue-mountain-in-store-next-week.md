@@ -1,7 +1,8 @@
 ---
 templateKey: 'blog-post'
-title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
-date: 2017-01-04T15:04:10.000Z
+title: 'Stupid Land: Church of Latter-Day Flat'
+date: 2019-01-01T15:04:10.000Z
+thumbnail: 'http://theparanoidstrain.com/uploads/PS.EP.11.5%20main.jpg'
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.
