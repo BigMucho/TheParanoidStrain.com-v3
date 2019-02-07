@@ -1,4 +1,26 @@
+@import "~breakpoint-sass"
 @import "~bulma/sass/utilities/initial-variables"
+
+// Breakpoints
+$sm: min-width 576px;
+$md: min-width 768px;
+$lg: min-width 992px;
+$xl: min-width 1200px;
+//
+//
+// Breakpoints min-max
+$xs-minmax: 1px 575px;
+$sm-minmax: 576px 767px;
+$md-minmax: 768px 991px;
+$sm-md-minmax: 576px 991px;
+$lg-minmax: 992px 1199px;
+//
+//
+// Breakpoints Below
+$below-sm: max-width 575px;
+$below-md: max-width 767px;
+$below-lg: max-width 991px;
+$below-xl: max-width 1199px;
 
 // Config vars
 // Kalidi logo brand color: #FD461E
@@ -72,17 +94,14 @@ $dimensions: 16 24 32 48 64 96 128 240
   background-color: #ddd;
 
 .posts
-  margin-right: 30px;
+  @include breakpoint($md)
+    margin-right: 30px;
 
 .post
   padding-bottom: 60px;
 
 .post-img
-  // flex: 1 !important;
-  // flex-basis: 30% !important;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
+  // margin-right: 30px !important;
   
   img 
     border-radius: 7px;
@@ -91,14 +110,5 @@ $dimensions: 16 24 32 48 64 96 128 240
 
 // Library overrides
 
-
-
-.thaNav 
-  // display: flex;
-  justify-content: center;
-
 #navMenu
   justify-content: center;
-
-.navbar-item
-  justify-self: center !important;
