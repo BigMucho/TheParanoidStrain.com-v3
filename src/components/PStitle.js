@@ -1,16 +1,14 @@
 import React from "react";
+// import Image from "gatsby-image";
 import PSlogo from "../img/ps-logo-long.png";
-import styled from "@emotion/styled";
 
-const LogoContainer = styled.div`
-  width: 100vw;
-  height: 100px;
-  background-image: url(${PSlogo});
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 20px 0px 0px 0px;
-`;
-
-const PStitle = () => <LogoContainer />;
+const PStitle = class extends React.Component {
+  render() {
+    return (
+      <div className="pstitle">
+        <img className="img" src={PSlogo} alt="The Paranoid Strain" />
+      </div>
+    );
+  }
+};
 export default PStitle;

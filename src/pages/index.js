@@ -11,43 +11,38 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <div className="section">
-          <div className="container">
-            <div className="columns">
-              <div className="column posts">
-                {posts.map(({ node: post }) => (
-                  <div className="post columns" key={post.id}>
-                    <div className="column is-one-third post-img">
-                      <Image
-                        fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
-                        alt={post.frontmatter.title}
-                      />
-                    </div>
-                    <div className="column">
-                      <p>
-                        <small>{post.frontmatter.date}</small>
-                        <br />
-                        <Link
-                          className="has-text-primary titles is-size-2"
-                          to={post.fields.slug}
-                        >
-                          {post.frontmatter.title}
-                        </Link>
-                      </p>
-                      <p>
-                        {post.excerpt}
-
-                        <Link className="is-small" to={post.fields.slug}>
-                          (read more)
-                        </Link>
-                      </p>
-                    </div>
-                  </div>
-                ))}
+        <div className="main">
+          <div className="posts">
+            {posts.map(({ node: post }) => (
+              <div className="post" key={post.id}>
+                <div className="image">
+                  <Image
+                    fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+                    alt={post.frontmatter.title}
+                  />
+                </div>
+                <div className="copy">
+                  <p>
+                    <small>{post.frontmatter.date}</small>
+                    <br />
+                    <Link
+                      className="has-text-primary titles is-size-2"
+                      to={post.fields.slug}
+                    >
+                      {post.frontmatter.title}
+                    </Link>
+                  </p>
+                  <p>
+                    {post.excerpt}
+                    <Link className="is-small" to={post.fields.slug}>
+                      (read more)
+                    </Link>
+                  </p>
+                </div>
               </div>
-              <div className="column is-one-quarter sidebar" />
-            </div>
+            ))}
           </div>
+          <div className="sidebar" />
         </div>
       </Layout>
     );
@@ -70,7 +65,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 300)
+          excerpt(pruneLength: 160)
           id
           fields {
             slug

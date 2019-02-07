@@ -1,0 +1,13 @@
+=testOutline($color)
+    outline-style: solid !important
+    outline-width: 1px !important
+    outline-color: $color !important
+
+=width-max($width)
+    +breakpoint($width)
+        padding-left: calc((100% - #{$width})/2)
+        padding-right: calc((100% - #{$width})/2)
+
+=small-body-pad
+    +breakpoint($below-xl)
+        padding: 0px $standard-pad 0px $standard-pad
