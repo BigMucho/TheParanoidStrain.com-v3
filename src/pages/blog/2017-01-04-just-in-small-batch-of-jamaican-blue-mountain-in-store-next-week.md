@@ -2,7 +2,7 @@
 templateKey: 'blog-post'
 title: 'Stupid Land: Church of Latter-Day Flat'
 date: 2019-01-01T15:04:10.000Z
-thumbnail: 'http://theparanoidstrain.com/uploads/PS.EP.11.5%20main.jpg'
+thumbnail: /img/180206182748-falcon-heavy-launch-5-780x439.jpg
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.

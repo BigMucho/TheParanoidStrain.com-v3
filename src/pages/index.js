@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
+import Image from "gatsby-image";
 import Layout from "../components/Layout";
 
 export default class IndexPage extends React.Component {
@@ -14,9 +15,15 @@ export default class IndexPage extends React.Component {
           <div className="columns">
             <div className="column posts">
               {posts.map(({ node: post }) => (
-                <div className="post content columns is-variable is-8" key={post.id}>
-                  <div className="post-img">
-                    <img src={post.frontmatter.thumbnail} alt="" />
+                <div
+                  className="post content columns is-variable"
+                  key={post.id}
+                >
+                  <div className="column is-one-third post-img">
+                    <Image
+                      fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
+                      alt="Jellyfish"
+                    />
                   </div>
                   <div className="column">
                     <p>
@@ -73,7 +80,16 @@ export const pageQuery = graphql`
             title
             templateKey
             date(formatString: "MMMM DD, YYYY")
-            thumbnail
+            thumbnail {
+              childImageSharp {
+                fluid(
+                  maxWidth: 700
+                  quality: 90
+                ) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
