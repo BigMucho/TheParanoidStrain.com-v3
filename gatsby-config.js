@@ -70,6 +70,12 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        // Accepts all options defined by `babel-plugin-emotion` plugin.
+      },
+    },
     'gatsby-plugin-purgecss', // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],

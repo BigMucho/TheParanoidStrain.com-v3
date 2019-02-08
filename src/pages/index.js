@@ -1,8 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
-import Image from "gatsby-image";
+import {  graphql } from "gatsby";
+// import Image from "gatsby-image";
+
 import Layout from "../components/Layout";
+import MainSidebar from "../components/MainSidebar";
+import Main from "../components/Main";
+import Sidebar from "../components/Sidebar";
+import PostPreview from "../components/PostPreview";
 
 export default class IndexPage extends React.Component {
   render() {
@@ -11,39 +16,21 @@ export default class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <div className="main">
-          <div className="posts">
+        <MainSidebar>
+          <Main>
             {posts.map(({ node: post }) => (
-              <div className="post" key={post.id}>
-                <div className="image">
-                  <Image
-                    fluid={post.frontmatter.thumbnail.childImageSharp.fluid}
-                    alt={post.frontmatter.title}
-                  />
-                </div>
-                <div className="copy">
-                  <p>
-                    <small>{post.frontmatter.date}</small>
-                    <br />
-                    <Link
-                      className="has-text-primary titles is-size-2"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                  </p>
-                  <p>
-                    {post.excerpt}
-                    <Link className="is-small" to={post.fields.slug}>
-                      (read more)
-                    </Link>
-                  </p>
-                </div>
-              </div>
+              <PostPreview
+                key={post.id}
+                imagePath={post.frontmatter.thumbnail.childImageSharp.fluid}
+                date={post.frontmatter.date}
+                link={post.fields.slug}
+                title={post.frontmatter.title}
+                excerpt={post.excerpt}
+              />
             ))}
-          </div>
-          <div className="sidebar" />
-        </div>
+          </Main>
+          <Sidebar />
+        </MainSidebar>
       </Layout>
     );
   }
