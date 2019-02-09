@@ -83,7 +83,8 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     (() => {
-      if (window.innerWidth < 480) {
+      const windowGlobal = typeof window !== 'undefined' && window
+      if (windowGlobal.innerWidth < 480) {
         this.state = { showing: false };
       }
     })();
@@ -101,7 +102,8 @@ class Header extends React.Component {
               onClick={this.alertName}
             />
           </div>
-          <div className="hamburger">            <FontAwesomeIcon
+          <div className="hamburger">            
+          <FontAwesomeIcon
               icon={faBars}
               size="lg"
               onClick={() => this.setState({ showing: !showing })}
