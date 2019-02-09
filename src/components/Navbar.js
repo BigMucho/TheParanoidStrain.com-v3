@@ -1,72 +1,47 @@
 import React from "react";
 import { Link } from "gatsby";
+import styled from "@emotion/styled";
+import Vars from "../utils/globalVars.js";
 
+const thisBreak = Vars.breakpoint.lg;
 
-const Navbar = class extends React.Component {
-  componentDidMount() {
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(
-      document.querySelectorAll(".navbar-burger"),
-      0
-    );
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
-      // Add a click event on each of them
-      $navbarBurgers.forEach(el => {
-        el.addEventListener("click", () => {
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target;
-          const $target = document.getElementById(target);
+const Styled = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-bottom: ${Vars.spacer};
 
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle("is-active");
-          $target.classList.toggle("is-active");
-        });
-      });
+  > * {
+    text-transform: uppercase;
+    color: #de222c;
+    margin: 0;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+    flex: 0 1 auto;
+    &:not(:last-child) {
+      margin-right: calc(${Vars.spacer});
     }
   }
+`;
 
+class NavBar extends React.Component {
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container is-centered">
-          <div className="navbar-brand">
-
-            {/* Hamburger menu */}
-            <div className="navbar-burger burger" data-target="navMenu">
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          <div id="navMenu" className="navbar-menu">
-            <div className="thaNav is-block-mobile is-flex-tablet has-text-centered">
-            <Link to="/" className="navbar-item" title="Logo">
-              Home
-            </Link>
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-    
-          </div>
-        </div>
-      </nav>
+      <Styled>
+        <Link>
+          <strong>Home</strong>
+        </Link>
+        <Link>
+          <strong>Episodes</strong>
+        </Link>
+        <Link>
+          <strong>About Us</strong>
+        </Link>
+        <Link>
+          <strong>Subscribe</strong>
+        </Link>
+      </Styled>
     );
   }
-};
+}
 
-export default Navbar;
+export default NavBar;

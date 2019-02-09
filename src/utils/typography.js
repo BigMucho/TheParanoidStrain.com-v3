@@ -1,6 +1,7 @@
-import Typography from "typography";
-import elkGlenTheme from 'typography-theme-elk-glen';
+import Typography from "typography"
+import moragaTheme from 'typography-theme-moraga'
 const typography = new Typography(
-    elkGlenTheme
+    moragaTheme
 );
-export default typography;
+
+export default typography

@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import Image from "gatsby-image";
-
 import Vars from "../utils/globalVars.js";
 
 const thisBreak = Vars.breakpoint.lg;
@@ -12,7 +11,7 @@ const Styled = styled.div`
   }
 
   &:not(:last-child) {
-    margin-bottom: calc(${Vars.spacer} *2);
+    margin-bottom: calc(${Vars.spacer} * 2);
     @media screen and (min-width: ${thisBreak}) {
       margin-bottom: ${Vars.spacer};
     }
@@ -36,12 +35,25 @@ const Styled = styled.div`
     flex-direction: column;
     justify-content: center;
     margin-top: $standard-pad / 2;
+
     * {
       margin: 0;
       flex: 0 1 auto;
     }
-    h2 {
-      color: red;
+    > * {
+      &:nth-child(1) {
+        color: #999;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        /* margin-bottom: 3px; */
+        @media screen and (max-width: ${Vars.breakpoint.lg}) {
+            margin-top: 20px;
+        }
+      }
+      &:nth-child(2) {
+        /* color: #777; */
+        margin-bottom: 10px;
+      }
     }
   }
 `;
@@ -56,7 +68,7 @@ class PostPreview extends React.Component {
         <div className="copy">
           <p>{this.props.date}</p>
           <Link to={this.props.link}>
-            <h2>{this.props.title}</h2>
+            <h1 className="depressionist">{this.props.title}</h1>
           </Link>
           <p>
             {this.props.excerpt} <Link to={this.props.link}> (read more)</Link>

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import Vars from "../utils/globalVars.js";
 
-const thisBreak = Vars.breakpoint.xl;
+const thisBreak = Vars.maxWidth;
 
 const Styled = styled.div`
   padding-left: calc(${Vars.spacer} / 2);

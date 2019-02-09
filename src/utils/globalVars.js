@@ -5,6 +5,7 @@ const Vars = {
     lg: "980px",
     xl: "1200px"
   },
-  spacer: '40px'
+  spacer: '40px',
+  maxWidth: '1200px'
 };
 export default Vars;
