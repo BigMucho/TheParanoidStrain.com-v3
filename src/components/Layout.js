@@ -2,8 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
 
-import Navbar from '../components/Navbar'
-import PStitle from '../components/PStitle'
+import Header from '../components/Header'
 import '../components/sass.scss'
 
 const TemplateWrapper = ({ children }) => (
@@ -39,8 +38,7 @@ const TemplateWrapper = ({ children }) => (
         </Helmet>
 
         
-        <PStitle />
-        <Navbar />
+      <Header/>
 
         <div>{children}</div>
       </div>
