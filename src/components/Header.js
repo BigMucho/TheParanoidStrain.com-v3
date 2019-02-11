@@ -6,7 +6,6 @@ import PSlogo from "../img/ps-logo-long.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faRss } from "@fortawesome/pro-solid-svg-icons";
 
-
 const thisBreak = Vars.breakpoint.sm;
 
 const Styled = styled.div`
@@ -80,17 +79,29 @@ const Styled = styled.div`
 class Header extends React.Component {
   state = { showing: true };
 
-  constructor(props) {
-    super(props);
-    (() => {
-      const windowGlobal = typeof window !== 'undefined' && window
+  toggleMenu = () => {
+    this.setState({
+      showing: !this.state.showing
+    });
+  };
+
+  componentDidMount = () => {
+    
+      const windowGlobal = typeof window !== "undefined" && window;
       if (windowGlobal.innerWidth < 480) {
-        this.state = { showing: false };
+        this.setState({
+          showing: false
+        });
       }
-    })();
+    
   }
 
+
+
+  
+
   render() {
+    
     const { showing } = this.state;
     return (
       <Styled>
@@ -102,11 +113,11 @@ class Header extends React.Component {
               onClick={this.alertName}
             />
           </div>
-          <div className="hamburger">            
-          <FontAwesomeIcon
+          <div className="hamburger">
+            <FontAwesomeIcon
               icon={faBars}
               size="lg"
-              onClick={() => this.setState({ showing: !showing })}
+              onClick={() => this.toggleMenu()}
             />
           </div>
         </div>
@@ -124,10 +135,7 @@ class Header extends React.Component {
             </Link>
             <Link className="link">
               <strong>Subscribe</strong>&nbsp;&nbsp;&nbsp;
-              <FontAwesomeIcon
-              icon={faRss}
-              size="sm"
-            />
+              <FontAwesomeIcon icon={faRss} size="sm" />
             </Link>
           </div>
         ) : null}
