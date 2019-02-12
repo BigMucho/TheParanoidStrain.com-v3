@@ -1,25 +1,12 @@
 ---
 templateKey: about-page
-title: About our values
+title: About us
 ---
-![](/img/products-full-width.jpg)
 
-### Shade-grown coffee
+The Paranoid Strain is a podcast that explains conspiracy theories (and theorists) to normal people.
 
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+As you may have noticed, an increasing number of folks–political leaders, entertainers, athletes, relatives, and for that matter your friends and neighbors–are buying into weird conspiracy theories. This phenomenon can be disconcerting; the idea that we can't all agree that reality is…well…real is a tough thing to swallow. Plus, a lot of the stuff these people are spouting is just…weird.
 
-### Single origin
+Anyhoo, the Paranoid Strain is here to help. Every couple of months, we'll provide you with an in-depth exploration of one or another of the conspiracy theories that people seem all-too-ready to believe. But more than that, we're fascinated with the folks who develop, promulgate, and believe these theories. Who are they, what do they believe, and why? We're gonna try to answer those questions, too. Moreover, we're gonna try to have fun doing it.
 
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
-
-### Sustainable farming
-
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+We welcome your comments, corrections, suggestions for shows, complaints about how we're part of the conspiracy and will be first up against the wall when the revolution comes, etc. Find us on Twitter @theparanoidstrain, or drop us a line at theparanoidstrain at gmail dot com.

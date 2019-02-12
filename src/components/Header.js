@@ -66,7 +66,7 @@ const Styled = styled.div`
     .hamburger {
       display: flex;
       align-items: center;
-      color: ${Vars.color};
+      color: ${Vars.color.main};
       margin-left: calc(${Vars.spacer} / 2);
       @media screen and (min-width: ${thisBreak}) {
         margin-left: none;
@@ -77,6 +77,7 @@ const Styled = styled.div`
 `;
 
 class Header extends React.Component {
+  
   state = { showing: true };
 
   toggleMenu = () => {
@@ -86,22 +87,15 @@ class Header extends React.Component {
   };
 
   componentDidMount = () => {
-    
-      const windowGlobal = typeof window !== "undefined" && window;
-      if (windowGlobal.innerWidth < 480) {
-        this.setState({
-          showing: false
-        });
-      }
-    
-  }
-
-
-
-  
+    const windowGlobal = typeof window !== "undefined" && window;
+    if (windowGlobal.innerWidth < 480) {
+      this.setState({
+        showing: false
+      });
+    }
+  };
 
   render() {
-    
     const { showing } = this.state;
     return (
       <Styled>
@@ -124,15 +118,20 @@ class Header extends React.Component {
 
         {showing ? (
           <div className="links">
-            <Link className="link">
+            <Link to="/" 
+            className="link">
               <strong>Home</strong>
             </Link>
-            <Link className="link">
-              <strong>Episodes</strong>
+            <Link to="/about" 
+            className="link">
+              <strong>About</strong>
             </Link>
-            <Link className="link">
-              <strong>About Us</strong>
+    
+            <Link to="/contact" 
+            className="link">
+              <strong>Contact</strong>
             </Link>
+    
             <Link className="link">
               <strong>Subscribe</strong>&nbsp;&nbsp;&nbsp;
               <FontAwesomeIcon icon={faRss} size="sm" />

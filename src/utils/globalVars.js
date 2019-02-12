@@ -5,7 +5,10 @@ const Vars = {
     lg: "980px",
     xl: "1200px"
   },
-  color: '#DE222C',
+  color: {
+    main: '#DE222C',
+    lightGray: '#888'
+  },  
   spacer: '40px',
   maxWidth: '1200px'
 };

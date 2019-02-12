@@ -1,13 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
-import {  graphql } from "gatsby";
+import { graphql } from "gatsby";
 // import Image from "gatsby-image";
-
+import styled from "@emotion/styled";
 import Layout from "../components/Layout";
 import MainSidebar from "../components/MainSidebar";
 import Main from "../components/Main";
 import Sidebar from "../components/Sidebar";
 import PostPreview from "../components/PostPreview";
+
+const Styled = styled.div`
+  margin-bottom: 200px;
+`;
 
 export default class IndexPage extends React.Component {
   render() {
@@ -15,23 +19,26 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <Layout>
-        <MainSidebar>
-          <Main>
-            {posts.map(({ node: post }) => (
-              <PostPreview
-                key={post.id}
-                imagePath={post.frontmatter.thumbnail.childImageSharp.fluid}
-                date={post.frontmatter.date}
-                link={post.fields.slug}
-                title={post.frontmatter.title}
-                excerpt={post.excerpt}
-              />
-            ))}
-          </Main>
-          <Sidebar />
-        </MainSidebar>
-      </Layout>
+      <Styled>
+        <Layout>
+          <MainSidebar>
+            <Main>
+              {posts.map(({ node: post }) => (
+                <PostPreview
+                  key={post.id}
+                  imagePath={post.frontmatter.teaserImage.childImageSharp.fluid}
+                  date={post.frontmatter.date}
+                  link={post.fields.slug}
+                  title={post.frontmatter.title}
+                  excerpt={post.excerpt}
+                  tags={post.frontmatter.tags}
+                />
+              ))}
+            </Main>
+            <Sidebar />
+          </MainSidebar>
+        </Layout>
+      </Styled>
     );
   }
 }
@@ -61,7 +68,8 @@ export const pageQuery = graphql`
             title
             templateKey
             date(formatString: "MMMM DD, YYYY")
-            thumbnail {
+            tags
+            teaserImage {
               childImageSharp {
                 fluid(maxWidth: 600, quality: 90) {
                   ...GatsbyImageSharpFluid
