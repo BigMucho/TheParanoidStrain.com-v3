@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+draft: false
 title: False Flags and Alex Jones
 date: 2017-04-03T00:00:10.000Z
 teaserImage: /img/Alex-Jones.jpg
@@ -9,6 +10,7 @@ audioLength: "01:52:52"
 tags:
   - Conspiracy
   - Conspiracy theory
+
 ---
 
 

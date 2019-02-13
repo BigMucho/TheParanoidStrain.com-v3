@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+draft: false
 title: 'Stupid Land: Church of Latter-Day Flat'
 date: 2019-01-09T00:00:10.000Z
 teaserImage: /img/PS-EP-11-5-main.jpg

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
-    description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution."
+    title: `The Paranoid Strain`,
+    description: `The podcast that explains why so many people believe ridiculous conspiracy theories.`,
+    siteUrl: `https://www.theparanoidstrain.com`
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -59,7 +59,96 @@ module.exports = {
         ]
       }
     },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [
+                    {
+                      "content:encoded": edge.node.html,
+                      webMaster: "theparanoidstrain@gmail.com",
+                      copyright: "2017-2019",
+                      pubDate: "Tue, 12 Feb 2019 07:11:28 GMT",
+                      lastBuildDate: "Tue, 12 Feb 2019 07:11:28 GMT",
+                      image: [
+                        {
+                          link: "https://www.theparanoidstrain.com",
+                          url:
+                            "https://www.theparanoidstrain.com/assets/img/paranoidstrain-lg.jpg",
+                          title: "The Paranoid Strain"
+                        }
+                      ],
+                      "itunes:subtitle":
+                        "The podcast that explains conspiracy theories to normal people.",
+                      "itunes:author": "Fearful Jesuit",
+                      "itunes:summary":
+                        "Ever wonder why so many people around you believe so many weird conspiracy theories? So do we. This show explains the history of these beliefs, why people believe them even after they've been debunked, and how those beliefs can impact the real world. We interview experts, read a lot of books, and then tell you all about it. With jokes.",
+                      "itunes:keywords":
+                        "conspiracy theories,skepticism,politics,current events,crazy,humor",
+                      "image:owner": [
+                        {
+                          "itunes:name": "Fearful Jesuit",
+                          "itunes:email": "theparanoidstrain@gmail.com"
+                        }
+                      ],
+                      "itunes:explicit": "Yes",
+                      "itunes:image":
+                        "https://www.theparanoidstrain.com/assets/img/paranoidstrain-lg.jpg",
+                      "itunes:category": "Society &amp; Culture",
 
+                      "itunes:category": "History"
+                    }
+                  ]
+                });
+              });
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 1000,
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: {frontmatter: { draft: { ne: true } }}
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      fields { slug }
+                      frontmatter {
+                        title
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Gatsby RSS Feed"
+          }
+        ]
+      }
+    },
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {

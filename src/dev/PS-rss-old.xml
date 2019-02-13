@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title>The Paranoid Strain</title>
+        <description>The podcast that explains why so many people believe ridiculous conspiracy theories.</description>
+        <link>https://www.theparanoidstrain.com</link>
+        <language>en</language>
+        <managingEditor>theparanoidstrain@gmail.com</managingEditor>
+        <webMaster>theparanoidstrain@gmail.com</webMaster>
+        <copyright>2017-2019</copyright>
+        <pubDate>Tue, 12 Feb 2019 07:11:28 GMT</pubDate>
+        <lastBuildDate>Tue, 12 Feb 2019 07:11:28 GMT</lastBuildDate>
+        <image>
+            <link>https://www.theparanoidstrain.com</link>
+            <url>https://www.theparanoidstrain.com/assets/img/paranoidstrain-lg.jpg</url>
+            <title>The Paranoid Strain</title>
+        </image>
+
+        <itunes:subtitle>The podcast that explains conspiracy theories to normal people</itunes:subtitle>
+        <itunes:author>Fearful Jesuit</itunes:author>
+        <itunes:summary>Ever wonder why so many people around you believe so many weird conspiracy theories? So do we. This show explains the history of these beliefs, why people believe them even after they've been debunked, and how those beliefs can impact the real world. We interview experts, read a lot of books, and then tell you all about it. With jokes.</itunes:summary>
+        <itunes:keywords>conspiracy theories,skepticism,politics,current events,crazy,humor</itunes:keywords>
+        <itunes:owner>
+            <itunes:name>Fearful Jesuit</itunes:name>
+            <itunes:email>theparanoidstrain@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:image href="https://www.theparanoidstrain.com/assets/img/paranoidstrain-lg.jpg" />
+        <itunes:category text="Society &amp; Culture">
+            <itunes:category text="History" />
+        </itunes:category>
+
+
+        <item>
+            <title>Quick Hit: Alex Jones and the Denver Airport</title>
+            <link>https://www.theparanoidstrain.com/2019/02/12/quick-hit-alex-jones-and-the-denver-airport.html</link>
+            <pubDate>Tue, 12 Feb 2019 01:00:00 GMT</pubDate>
+            <description>Hey there, Strainiacs. Today, we bring you another of our Quick Hit episodes. Yes, that means the return of the Quick Hit guy. PARANOID STRAIN! QUICK HIT!!!!! Yeah. We missed him, too. It’s also a weird sort of hybrid. We were planning to do a show based on our interview and tour at Denver International Airport in 2017, where we were able to carefully document the true stories behind the unmitigated spew of nonsense you’ll get from conspiracists about the place’s sinister origins and purpose. But at the same time, we realized we had more to say about Alex Jones that we didn’t fully cover in our False Flags episode last year. So rather than choose, we just kinda…glued them together. We hope you enjoy, then, a quick catch-up on the long, ongoing fall of Alex Jones and Infowars, as well as a fun overview of the DEN nonsense. As... (read more at TheParanoidStrain.com)</description>
+            <guid isPermaLink="true"></guid>
+            <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.12.mp3" length="1:20:03" type="audio/mp3" />
+            <itunes:author>Fearful Jesuit</itunes:author>
+            <itunes:subtitle>Episode 12</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>Hey there, Strainiacs. Today, we bring you another of our Quick Hit episodes. Yes, that means the return of the Quick Hit guy.</p>
+
+            <p><strong>PARANOID STRAIN! QUICK HIT!!!!!</strong></p>
+
+            <p>Yeah. We missed him, too.</p>
+
+            <p>It’s also a weird sort of hybrid. We were planning to do a show based on our interview and tour at Denver International Airport in 2017, where we were able to carefully document the true stories behind the unmitigated spew of nonsense you’ll get from conspiracists about the place’s sinister origins and purpose. But at the same time, we realized we had more to say about Alex Jones that we didn’t fully cover in our False Flags episode last year.</p>
+
+            <p>So rather than choose, we just kinda…glued them together.</p>
+
+            <p>We hope you enjoy, then, a quick catch-up on the long, ongoing fall of Alex Jones and Infowars, as well as a fun overview of the DEN nonsense. As always, links to further reading and other content are below, we would love to hear from you on our Facebook or Youtube pages, and we are always available for a chat at theparanoidstrain@gmail.com.</p>
+
+            <p><u><strong>Denver Airport Conspiracy&mdash;visual guides</strong></u></p>
+
+            <ul>
+                <li><a href="https://www.google.com/search?q=bluecifer&amp;rlz=1C1GCEA_enUS827US827&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjtzNn3zqXgAhWF4FQKHY-3DocQ_AUIDigB&amp;biw=1920&amp;bih=1068#imgrc=G0iNRX83sHpYQM:">Images of the Mustang (“Blucifer”)</a></li>
+                <li><a href="https://www.google.com/search?q=denver+airport+auag&amp;rlz=1C1GCEA_enUS827US827&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjAyqCpxrXgAhUHHTQIHfuyDAwQ_AUIECgD&amp;biw=1564&amp;bih=912">Images of AuAg</a></li>
+                <li><a href="https://www.google.com/search?q=denver+runway+swastika&amp;rlz=1C1GCEA_enUS827US827&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwishfiT0KXgAhXhwMQHHWkDCNkQ_AUIDigB&amp;cshid=1549405208682386&amp;biw=1920&amp;bih=1068">Runway images</a></li>
+                <li><a href="https://images.flydenver.com/Art-at-DIA/Permanent-Works/In-Peace-and-Harmony-with-Nature/">Denver airport murals (all 4, not just the scary ones)</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/HBsAg">Australia antigen (the real version)</a></li>
+                <li><a href="https://www.flydenver.com/about/art_culture/notre_denver">Gargoyles</a></li>
+                <li><a href="https://apex.aero/2018/10/16/denver-international-airport-conspiracy-theories-ad-series">The airport’s advertising campaign rundown</a></li>
+            </ul>
+
+            <p><u><strong>Bibliography</strong></u></p>
+
+            <ul>
+                <li><a href="https://amzn.to/2E5oyCS">Them </a>by Ronson</li>
+                <li><a href="https://amzn.to/2E6tqbe">Elephant in the Room</a> by Ronson</li>
+            </ul>
+            ]]>            </itunes:summary>
+            <itunes:duration>1:20:03</itunes:duration>
+            <itunes:keywords>Conspiracy,Conspiracy theory,Alex Jones,DEN,Denver Airport</itunes:keywords>
+            <itunes:image href="https://www.theparanoidstrain.com" />
+            <itunes:explicit>Yes</itunes:explicit>
+        </item>
+
+        <item>
+            <title>Stupid Land: Church of Latter-Day Flat</title>
+            <link>https://www.theparanoidstrain.com/2019/01/09/stupid-land-church-of-latter-day-flat.html</link>
+            <pubDate>Wed, 09 Jan 2019 01:00:00 GMT</pubDate>
+            <description>Ok. Nobody panic. It’s happening again.
+
+                But we’ve been through this before, haven’t we? We understand that sometimes terrible things happen. Wars. Plagues. Disasters. Stupid Land.
+
+                Yes, they’re back. And it appears they’re multiplying–this episode relates a report from a hitherto unsuspected third Chad. Whether this 50% increase in Chadness is through ideological reprogramming, some sort of slimy parthenogenesis, or simply the cruel whim of a callous deity, we now must experience their collective take on our previous episode. Flat Earth. Which, to be fair, is nearly as stupid as the Land they call home.
+
+                Enjoy or endure, and we’ll see you next month with a regular episode.
+
+                Attributions:
+
+
+                https://freemusicarchive.org/music/Borrtex/Distant_Sphere/
+                http://freemusicarchive.org/music/Daniel_Birch/Minimal_Bells_From_The_Deep
+                SwingWhale - S Strong - Whitestick https://www.youtube.com/watch?v=H86MZb_eDx4&amp;feature=youtu.be
+                http://freemusicarchive.org/music/Podington_Bear/Piano_III_-_Minor_Keys/Degradation
+                http://freemusicarchive.org/music/Podington_Bear/Soul/Smooth_Actor
+
+                (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/ps.ep11.5.mp3" length="21:47" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 11.5</itunes:subtitle>
+                <itunes:summary><![CDATA[<p>Ok. Nobody panic. It’s happening again.</p>
+
+                <p>But we’ve been through this before, haven’t we? We understand that sometimes terrible things happen. Wars. Plagues. Disasters. Stupid Land.</p>
+
+                <p>Yes, they’re back. And it appears they’re multiplying–this episode relates a report from a hitherto unsuspected third Chad. Whether this 50% increase in Chadness is through ideological reprogramming, some sort of slimy parthenogenesis, or simply the cruel whim of a callous deity, we now must experience their collective take on our previous episode. Flat Earth. Which, to be fair, is nearly as stupid as the Land they call home.</p>
+
+                <p>Enjoy or endure, and we’ll see you next month with a regular episode.</p>
+
+                <p><strong>Attributions:</strong></p>
+
+                <ul>
+                    <li>https://freemusicarchive.org/music/Borrtex/Distant_Sphere/</li>
+                    <li>http://freemusicarchive.org/music/Daniel_Birch/Minimal_Bells_From_The_Deep</li>
+                    <li>SwingWhale - S Strong - Whitestick https://www.youtube.com/watch?v=H86MZb_eDx4&amp;feature=youtu.be</li>
+                    <li>http://freemusicarchive.org/music/Podington_Bear/Piano_III_-_Minor_Keys/Degradation</li>
+                    <li>http://freemusicarchive.org/music/Podington_Bear/Soul/Smooth_Actor</li>
+                </ul>
+                ]]>            </itunes:summary>
+                <itunes:duration>21:47</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory,flat earth,globe conspiracy</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>Flat Earth</title>
+                <link>https://www.theparanoidstrain.com/2018/12/04/flat-earth.html</link>
+                <pubDate>Tue, 04 Dec 2018 01:00:00 GMT</pubDate>
+                <description>Welcome back to your home away from home, the Paranoid Strain. This time, we squash flat earth beliefs…well, flat, I suppose. Stupid English language.  We both know that flat earthers are all over the place these days. But why? And how? And where did all of these ideas come from? As you might expect, since we’re raising all of these rhetorical questions, we have rhetorical answers. We’ve been through some dark, strange stuff over the past few episodes, what with 9/11 and the disturbing rantings of Qanon fans. This time, we’re tackling a belief that truly deserves the sobriquet “wacky”.  We had a lot of fun with this one. Hope you will, too. Find us on the social medias, join our Facebook and Youtube pages, and spread the word. Thank you kindly. Bibliography: Flat Earth: The History of an Infamous Idea by Christine Garwood Flat Earth—Are you serious? By Barry... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.11.Flat.Earth.mp3" length="2:06:26" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 11</itunes:subtitle>
+                <itunes:summary><![CDATA[<p>Welcome back to your home away from home, the Paranoid Strain. This time, we squash flat earth beliefs…well, flat, I suppose. Stupid English language. </p>
+
+                <p>We both know that flat earthers are all over the place these days. But why? And how? And where did all of these ideas come from? As you might expect, since we’re raising all of these rhetorical questions, we have rhetorical answers. We’ve been through some dark, strange stuff over the past few episodes, what with 9/11 and the disturbing rantings of Qanon fans. This time, we’re tackling a belief that truly deserves the sobriquet “wacky”. </p>
+
+                <p>We had a lot of fun with this one. Hope you will, too. Find us on the social medias, join our Facebook and Youtube pages, and spread the word. Thank you kindly.</p>
+
+                <p>Bibliography:</p>
+
+                <ul>
+                    <li><a href="https://amzn.to/2Q8i3H6">Flat Earth: The History of an Infamous Idea</a> by Christine Garwood</li>
+                    <li><a href="https://amzn.to/2EbMrdh">Flat Earth—Are you serious?</a> By Barry Howard Begley</li>
+                    <li><a href="https://amzn.to/2SpDjos">Antarctica—Does it end?</a> By Colin Ford</li>
+                    <li><a href="https://amzn.to/2Qwjgr9">Escaping the Rabbit Hole: How do Debunk Conspiracy Theories Using Facts, Logic, and Respect </a>by Mick West</li>
+                    <li><a href="https://amzn.to/2UaIjPs">Turned Gay By A Flat Earth?: a M/M First Time Str8-2-Gay Erotic Short Story</a> by Squeeze McAwkin (ha! Puns!)</li>
+                    <li><a href="https://amzn.to/2SsklNX">The Flat Earth Activist </a>by Tim Ozman</li>
+                    <li><a href="https://amzn.to/2PkcekC">Flat Smacked: A Flat Earth Lexicon</a> by Mocking-Byrd and Amelia Fairheart</li>
+                </ul>
+
+                <p>-<br />Other links:</p>
+
+                <ul>
+                    <li><a href="https://www.metabunk.org">Metabunk</a> –Mick West’s debunking site. Excellent source for smart, very polite debunking of an array of nonsense.</li>
+                    <li><a href="https://www.youtube.com/channel/UCDXr2cbK7WlfeYEtJxC9i3w">Soundly’s Youtube page</a>. Plenty of disproofs of Flat Earth ideas here.</li>
+                </ul>
+
+                <p>Attributions:</p>
+
+                <ul>
+                    <li>Freesound.org - <a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/">Toiletrolltube: Tera3 Feb 15 Misc</a></li>
+                    <li>Freesound.org <a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Klankbeeld Horror Ambience 80</a></li>
+                    <li><a href="http://imslp.org/wiki/The_Gladiator_(Sousa,_John_Philip)">The Gladiator, by John Philip Sousa,</a> recorded by the United States Marine Band, 2oo6</li>
+                    <li>Hiss-pop-crackle Found on the Partners in Rhyme blog. Public Domain</li>
+                </ul>
+
+                <p>All other music copyright 2018, The Paranoid Strain Orchestra</p>
+                ]]>            </itunes:summary>
+                <itunes:duration>2:06:26</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory,flat earth,globe conspiracy</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>Stupid Land: Q-level Clarence</title>
+                <link>https://www.theparanoidstrain.com/2018/11/14/stupid-land-q-level-clarence.html</link>
+                <pubDate>Wed, 14 Nov 2018 01:00:00 GMT</pubDate>
+                <description>Wait–we’re doing this again? Many have approached me, deep concern on their eager faces. “Why, Fearful?” they plead. “Why do you let them do such awful, unspeakable things to your beautiful podcast feed?” I always know what they’re talking about. They’re referring to the Chads, and their eldritch power over me. I wish I could give them a better understanding–I lack that understanding myself. Perhaps I should never have angered the Swamp Witch. Maybe it was a bad idea to plunder that unmarked grave in the abandoned cemetery at the end of the dirt road. Arguably, I shouldn’t have dropped that bloody hitchhiker off, as he requested, next to the girls’ sleepaway camp. I definitely shouldn’t have offered him a free sharpening for his knife. I mean, what was I thinking? We can’t be sure of the cause. All we can know at this point is that the Chads have... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS+Q-level-Clarence+v1.mp3" length="33:42" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 10.5</itunes:subtitle>
+                <itunes:summary><![CDATA[<p>Wait–we’re doing this again?</p>
+
+                <p>Many have approached me, deep concern on their eager faces.</p>
+
+                <p>“Why, Fearful?” they plead. “Why do you let them do such awful, unspeakable things to your beautiful podcast feed?”</p>
+
+                <p>I always know what they’re talking about. They’re referring to the Chads, and their eldritch power over me. I wish I could give them a better understanding–I lack that understanding myself. Perhaps I should never have angered the Swamp Witch. Maybe it was a bad idea to plunder that unmarked grave in the abandoned cemetery at the end of the dirt road. Arguably, I shouldn’t have dropped that bloody hitchhiker off, as he requested, next to the girls’ sleepaway camp. I definitely shouldn’t have offered him a free sharpening for his knife. I mean, what was I thinking?</p>
+
+                <p>We can’t be sure of the cause. All we can know at this point is that the Chads have a lot to say about Qanon, the astonishingly dumb Trump-related conspiracy we covered a few months ago. So now, dear listeners, I have no choice. My will is not my own. Welcome to Stupid Land.</p>
+
+                <p>Attributions:</p>
+
+                <ul>
+                    <li>http://freemusicarchive.org/music/Alan_Spiljak/Silverlight/Alan_Spiljak_-_05_-_Harmony</li>
+                    <li>http://freemusicarchive.org/music/CIRCUSMARCUS/La_tapa_del_da_LP/15_Nana_nanita_MASTER_1796</li>
+                    <li>https://archive.org/details/DanishSongs/04SkadaAttAmerika.mp3</li>
+                    <li>https://archive.org/details/CrowminiusDrWHo</li>
+                    <li>https://ia802300.us.archive.org/25/items/bluegrass_1/BluegrassLesterFlattEarlScruggsShuckinTheCorn.mp3</li>
+                    <li>https://archive.org/details/78_that-banjo-rag_the-banjo-kings-dick-roberts-red-roundtree-vic-davis-george-bruns-mo_gbia0002670a</li>
+                    <li>http://freemusicarchive.org/music/Haunted_Corpse/Dirges_for_the_Undead/Haunted_Corpse_-_Dirges_for_the_Undead_-_09_Maggotcorpse_1401</li>
+                    <li>https://archive.org/details/soandsostudioTheUnionSongofClaritasHhongKongaccordionversion</li>
+                    <li>https://archive.org/details/pompcircumstance00elga</li>
+                    <li>http://freemusicarchive.org/music/Meydan/Havor/2-_Please_wake_up_1515</li>
+                </ul>
+                ]]>            </itunes:summary>
+                <itunes:duration>33:42</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory,9/11 Truthers,Qanon,Trump,Where we go one we go all</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>9/11 Truthers: Part 2</title>
+                <link>https://www.theparanoidstrain.com/2018/10/02/911-truthers-part-2.html</link>
+                <pubDate>Tue, 02 Oct 2018 01:00:00 GMT</pubDate>
+                <description>Back in record time, we’re here to provide closure for our 9/11 story. Last time we touched on this national tragedy and its discontents, we dealt with stuff that, while fundamentally incorrect, was at least based on reasonable suspicions. This time, we’re only dealing with 9/11 truthers who are either unbelievably racist, completely unhinged, or both. And yes, we are finally pleased to unveil THE CRAZIEST BOOK WE’VE EVER READ. Enjoy, find us on the social medias, join our Facebook page, and spread the word. Thank you kindly. Bibliography: Debunking 9/11 Myths by the Editors of Popular Mechanics Debunking 9/11 Debunking by David Ray Griffin Voodoo Histories by David Aaronovich A Search for Truth: 9/11 by Terence Smart The Great Derangement by Matt Taibbi Planes Without Passengers by Dean Hartwell The Most Dangerous Book in the World: 9/11 as Mass Ritual (aka The Craziest Book We’ve Ever Read) by SK Bain “My Pet... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.10.mp3" length="1:27:58" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 10</itunes:subtitle>
+                <itunes:summary><![CDATA[<p class="present-before-paste">Back in record time, we’re here to provide closure for our 9/11 story. Last time we touched on this national tragedy and its discontents, we dealt with stuff that, while fundamentally incorrect, was at least based on reasonable suspicions. This time, we’re only dealing with 9/11 truthers who are either unbelievably racist, completely unhinged, or both. And yes, we are finally pleased to unveil THE CRAZIEST BOOK WE’VE EVER READ.</p>
+
+                <p class="present-before-paste">Enjoy, find us on the social medias, join our Facebook page, and spread the word. Thank you kindly.</p>
+
+                <p class="present-before-paste"><strong>Bibliography:</strong></p>
+
+                <ul>
+                    <li><a href="https://amzn.to/2KG4z1G"><em>Debunking 9/11 Myths</em></a> by the Editors of <em>Popular Mechanics</em></li>
+                    <li><em><a href="https://amzn.to/2NW8IkT">Debunking 9/11 Debunking</a></em> by David Ray Griffin</li>
+                    <li><a href="https://amzn.to/2NnMC6S"><em>Voodoo Histories</em></a> by David Aaronovich</li>
+                    <li><a href="https://amzn.to/2NcITaJ"><em>A Search for Truth: 9/11</em></a> by Terence Smart</li>
+                    <li><a href="https://amzn.to/2NVerHn"><em>The Great Derangement</em></a> by Matt Taibbi</li>
+                    <li><a href="https://amzn.to/2DLpP3R"><em>Planes Without Passengers</em></a> by Dean Hartwell</li>
+                    <li><em><a href="https://amzn.to/2QpdOCN">The Most Dangerous Book in the World: 9/11 as Mass Ritual</a> (aka The Craziest Book We’ve Ever Read) by SK Bain</em></li>
+                    <li><a href="https://amzn.to/2IvXv4k">“My Pet Goat”</a> by Siegfreid Engelmann (Ha!)</li>
+                </ul>
+
+                <p><strong>Other links:</strong></p>
+
+                <ul>
+                    <li><a href="http://www.mediaite.com/tv/conspiracy-how-the-simpsons-predicted-911-and-saved-us-from-another-catastrophe/attachment/simpsons-911/">That Simpsons 9/11 thing.</a> So. Stupid.</li>
+                </ul>
+
+                <p class="present-before-paste"><strong>Attributions:</strong></p>
+
+                <ul>
+                    <li>Freesound.org - <a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/">Toiletrolltube: Tera3 Feb 15 Misc</a></li>
+                    <li>Freesound.org <a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Klankbeeld Horror Ambience 80</a></li>
+                    <li><a href="http://imslp.org/wiki/The_Gladiator_(Sousa,_John_Philip)">The Gladiator</a>, by John Philip Sousa, recorded by the United States Marine Band, 2oo6</li>
+                    <li>Hiss-pop-crackle Found on the Partners in Rhyme blog. Public Domain</li>
+                </ul>
+
+                <p class="present-before-paste">All other music copyright 2016, The Paranoid Strain Orchestra</p>
+                ]]>            </itunes:summary>
+                <itunes:duration>1:27:58</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory,9/11,Terrorism,9/11 Truthers,Craziest book we've ever read</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>Qanon: Quick Hit</title>
+                <link>https://www.theparanoidstrain.com/2018/09/11/qanon-quick-hit.html</link>
+                <pubDate>Tue, 11 Sep 2018 01:00:00 GMT</pubDate>
+                <description>I know what you’re thinking. This was supposed to be 9/11 Part 2. And don’t worry–it’s still coming. But this super-stupid Qanon thing was just begging for a good ol’ ass-whuppin’, and we decided to oblige. For those of you who’ve somehow missed it, Qanon is a seriously deranged conspiracy theory in which some of Donald Trump’s most fervent supporters assert without evidence that he is cooperating with the Mueller investigation, whose real purpose is to take down an international, child sex trafficking ring, among other things. Over the past couple of months, as the chuckleheads who believe this have become more visible at Trump rallies, drawing confused looks from the media–and the non-insane generally, they have moved up our list of must-address topics until we decided to create a whole episode around them in about half the time it normally takes us. If you like this kind of up-to-the-minute... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.QH.Qanon.mp3" length="1:23:48" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode Quick Hit 1</itunes:subtitle>
+                <itunes:summary><![CDATA[<p>I know what you’re thinking. This was supposed to be 9/11 Part 2. And don’t worry–it’s still coming. But this super-stupid Qanon thing was just begging for a good ol’ ass-whuppin’, and we decided to oblige.</p>
+
+                <p>For those of you who’ve somehow missed it, Qanon is a seriously deranged conspiracy theory in which some of Donald Trump’s most fervent supporters assert without evidence that he is cooperating with the Mueller investigation, whose real purpose is to take down an international, child sex trafficking ring, among other things.</p>
+
+                <p>Over the past couple of months, as the chuckleheads who believe this have become more visible at Trump rallies, drawing confused looks from the media–and the non-insane generally, they have moved up our list of must-address topics until we decided to create a whole episode around them in about half the time it normally takes us. If you like this kind of up-to-the-minute conspiracy theory reporting, which we’re calling a “Quick Hit”, in spite of the fact that it’s more than 80 minutes long, let us know, won’t you?</p>
+
+                <p>Let us know what you think. We hope you find this as bizarre as we do.</p>
+
+                <p><strong>That Vice article with the glossary of Qanon terms:</strong></p>
+
+                <ul>
+                    <li><a href="https://www.vice.com/en_us/article/ywex8v/what-is-qanon-conspiracy-theory">A Guide to Qanon, the new King of Right-Wing Conspiracy Theories</a></li>
+                </ul>
+
+                <p></p>
+
+                <p><strong>Attributions:</strong></p>
+
+                <ul>
+                    <li>Freesound.org - <a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/">Toiletrolltube: Tera3 Feb 15 Misc</a></li>
+                    <li>Freesound.org <a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Klankbeeld Horror Ambience 80</a></li>
+                </ul>
+
+                <p>All other music copyright 2016-18, The Paranoid Strain Orchestra</p>
+                ]]>            </itunes:summary>
+                <itunes:duration>1:23:48</itunes:duration>
+                <itunes:keywords>Conspiracy theory,Qanon,Trump,Where we go one we go all</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>Stupid Land: Bush Can't Melt Steel Beams</title>
+                <link>https://www.theparanoidstrain.com/2018/08/08/stupid-land-bush-cant-melt-steel-beams.html</link>
+                <pubDate>Wed, 08 Aug 2018 01:00:00 GMT</pubDate>
+                <description>A brand-new, steaming heap of whatever it is that the Chads do is now here for your delectation. 
+
+                    Following through on our lifelong, three-month commitment to delivering monthly content, we present the second of our collaborations with the weirdos at Stupid Land. This time, they’ve done…
+
+                    something…
+
+                    terrible with the previous episode, Part 1 of our 9/11 discussion. I’d try to explain it better, but…just listen. You’ll understand.
+
+                    Anyway, as with the previous PS/SL collaboration, the audio production is impeccable, while the content is deeply bizarre. Keep it up, you oddball bastards.
+
+                    See you next month. Oh, and I don’t want to forget–the Chads got they-selves a website. Now, you can visit, listen, and subscribe at the aptly named stupid.land. Won’t you?
+
+                    Attributions:
+
+
+                    Chicago Rhythm Kings: “I Found A New Baby” (The Internet Archive)
+                    Mystery Mammal: “Wonders of Modern Technology” (Free Music Archive)
+                    Nihilore: “Broken Parts” (Free Music Archive)
+
+                    (read more at TheParanoidStrain.com)</description>
+                    <guid isPermaLink="true"></guid>
+                    <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.ep.8.5.stupidland.v1.1.mp3" length="26:56" type="audio/mp3" />
+                    <itunes:author>Fearful Jesuit</itunes:author>
+                    <itunes:subtitle>Episode 8.5</itunes:subtitle>
+                    <itunes:summary><![CDATA[<p>A brand-new, steaming heap of whatever it is that the Chads do is now here for your delectation. </p>
+
+                    <p>Following through on our lifelong, three-month commitment to delivering monthly content, we present the second of our collaborations with the weirdos at Stupid Land. This time, they’ve done…</p>
+
+                    <p>something…</p>
+
+                    <p>terrible with the previous episode, Part 1 of our 9/11 discussion. I’d try to explain it better, but…just listen. You’ll understand.</p>
+
+                    <p>Anyway, as with the previous PS/SL collaboration, the audio production is impeccable, while the content is deeply bizarre. Keep it up, you oddball bastards.</p>
+
+                    <p>See you next month. Oh, and I don’t want to forget–the Chads got they-selves a website. Now, you can visit, listen, and subscribe at the aptly named <a href="https://stupid.land">stupid.land</a>. Won’t you?</p>
+
+                    <p><strong>Attributions:</strong></p>
+
+                    <ul>
+                        <li>Chicago Rhythm Kings: “<a href="https://archive.org/details/KenMcPhersonJazzfromthe1920sand1930s/chicago_rhythm_kings_I_found_a_new_baby.mp3">I Found A New Baby</a>” (The Internet Archive)</li>
+                        <li>Mystery Mammal: “<a href="https://freemusicarchive.org/music/Mystery_Mammal/Wonders_Of_Modern_Technology/">Wonders of Modern Technology</a>” (Free Music Archive)</li>
+                        <li>Nihilore: “<a href="https://freemusicarchive.org/music/Nihilore/Broken_Parts/">Broken Parts</a>” (Free Music Archive)</li>
+                    </ul>
+                    ]]>
+                </itunes:summary>
+                <itunes:duration>26:56</itunes:duration>
+                <itunes:keywords>Conspiracy theory,9/11,Terrorism,9/11 Truthers,Stupid Land</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>9/11 Truthers: Part 1</title>
+                <link>https://www.theparanoidstrain.com/2018/07/03/911-truthers-part-1.html</link>
+                <pubDate>Tue, 03 Jul 2018 01:00:00 GMT</pubDate>
+                <description>Just in time for the 4th of July, we’re back to our regularly scheduled programming. This time, we’re bringing you the story of 9/11, and the Truthers who are only too happy to remind you that jet fuel can’t…well, you know. As you can discern from the title, our next full episode is going to handle the second part of this story–this one’s all about reasonable people’s doubts about 9/11. The next one is all about the pure-D batshit craziness. We hope you’ll enjoy both. In between, next month, expect another edition of our Stupid Land collaboration, only this time on the subject of our nation’s largest recent tragedy. I’m sure they’ll be very sensitive. Oh, Jeez. As always, we deeply appreciate your listening, and anything you can do to spread the word about us. Bibliography: The 9/11 Commission Report The Looming Tower by Lawrence Wright Debunking 9/11 Myths by... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.8.mp3" length="1:42:26" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 8</itunes:subtitle>
+                <itunes:summary><![CDATA[<p class="present-before-paste">Just in time for the 4th of July, we’re back to our regularly scheduled programming. This time, we’re bringing you the story of 9/11, and the Truthers who are only too happy to remind you that jet fuel can’t…well, you know.</p>
+
+                <p class="present-before-paste">As you can discern from the title, our next full episode is going to handle the second part of this story–this one’s all about reasonable people’s doubts about 9/11. The next one is all about the pure-D batshit craziness. We hope you’ll enjoy both.</p>
+
+                <p class="present-before-paste">In between, next month, expect another edition of our Stupid Land collaboration, only this time on the subject of our nation’s largest recent tragedy. I’m sure they’ll be very sensitive. Oh, Jeez.</p>
+
+                <p class="present-before-paste">As always, we deeply appreciate your listening, and anything you can do to spread the word about us.</p>
+
+                <p class="present-before-paste"><strong>Bibliography:</strong></p>
+
+                <ul>
+                    <li><a href="https://amzn.to/2IMqgrW"><em>The 9/11 Commission Report</em></a></li>
+                    <li><a href="https://amzn.to/2MHuXG0"><em>The Looming Tower</em></a>by Lawrence Wright</li>
+                    <li><a href="https://amzn.to/2KG4z1G"><em>Debunking 9/11 Myths</em></a> by the Editors of <em>Popular Mechanics</em></li>
+                    <li><a href="https://amzn.to/2NjOEor">The New Pearl Harbor</a> by David Ray Griffin</li>
+                    <li><a href="https://amzn.to/2NnMC6S"><em>Voodoo Histories</em></a> by David Aaronovich</li>
+                    <li><a href="https://amzn.to/2NlpF4a"><em>Debunking 9/11 Debunking</em></a> by David Ray Griffin</li>
+                </ul>
+
+                <p>Other links:</p>
+
+                <ul>
+                    <li><a href="https://vault.fbi.gov/9-11-attacks-investigation-and-related-materials/9-11-images">FBI photos related to the Pentagon attack</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=RZjhxuhTmGk">That video of a phantom jet smashing into a concrete wall</a></li>
+                </ul>
+
+                <p class="present-before-paste"><strong>Attributions:</strong></p>
+
+                <ul>
+                    <li>Freesound.org - <a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/">Toiletrolltube: Tera3 Feb 15 Misc</a></li>
+                    <li>Freesound.org <a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Klankbeeld Horror Ambience 80</a></li>
+                    <li><a href="http://imslp.org/wiki/The_Gladiator_(Sousa,_John_Philip)">The Gladiator</a>, by John Philip Sousa, recorded by the United States Marine Band, 2oo6</li>
+                    <li>Hiss-pop-crackle Found on the Partners in Rhyme blog. Public Domain</li>
+                </ul>
+
+                <p class="present-before-paste">All other music copyright 2016, The Paranoid Strain Orchestra</p>
+                ]]>            </itunes:summary>
+                <itunes:duration>1:42:26</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory,9/11,Terrorism,9/11 Truthers</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>Introducing: Stupid Land</title>
+                <link>https://www.theparanoidstrain.com/2018/06/11/introducing-stupid-land.html</link>
+                <pubDate>Mon, 11 Jun 2018 00:00:00 GMT</pubDate>
+                <description>I can already hear you: “It’s been two months. Where’s the new episode of our favorite anti-conspiracy theory podcast?” What? We’re not your favorite? You’ve been seeing other anti-conspiracy theory podcasts? How could you? Think of the children. Anyhoo, what we bring to you today is not a new standard-issue episode. In fact, you can think of this as episode 7.5. Mostly because that’s what we’ve called it. And to bring it to you, we’ve partnered with the Chads over at the brand new–as in, so new that it doesn’t technically have a website or any current episodes yet–podcast Stupid Land. This is the first of what will be an ongoing series. Every other month, we will post a new audio…what are we calling these things? Let’s go with “pastiche” based on the previous month’s episode topic. This one, for example, deals with False Flags and Alex Jones. Sort of. Anyway, expect short-form, absurdist... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep7.5.StupidLand.mp3" length="13:22" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 7.5</itunes:subtitle>
+                <itunes:summary><![CDATA[<p>I can already hear you: “It’s been two months. Where’s the new episode of our favorite anti-conspiracy theory podcast?”</p>
+
+                <p>What? We’re not your <em>favorite</em>? You’ve been seeing <strong>other</strong> anti-conspiracy theory podcasts? How <strong>could</strong> you? Think of the children.</p>
+
+                <p>Anyhoo, what we bring to you today is not a new standard-issue episode. In fact, you can think of this as episode 7.5. Mostly because that’s what we’ve called it. And to bring it to you, we’ve partnered with the Chads over at the brand new–as in, so new that it doesn’t technically have a website or any current episodes yet–podcast <strong><a href="https://stupid.land/">Stupid Land</a></strong>.</p>
+
+                <p>This is the first of what will be an ongoing series. Every other month, we will post a new audio…what are we calling these things? Let’s go with “pastiche” based on the previous month’s episode topic. This one, for example, deals with False Flags and Alex Jones. Sort of. Anyway, expect short-form, absurdist flights of fancy with impeccable audio production at the beginning of every month that doesn’t feature a standard episode. It’s our way of doubling your listening pleasure without ever having to leave the cozy confines of our podcast feed.</p>
+
+                <p>We hope you like it. We like it a lot. And yes, it’s weird. We wouldn’t have it any other way.</p>
+
+                <p>Ladies and gentlemen: Episode 7.5 – Stupidland takes on False Flags and Alex Jones</p>
+                ]]>            </itunes:summary>
+                <itunes:duration>13:22</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>False Flags and Alex Jones</title>
+                <link>https://www.theparanoidstrain.com/2018/04/03/false-flags-and-alex-jones.html</link>
+                <pubDate>Tue, 03 Apr 2018 00:00:00 GMT</pubDate>
+                <description>Call it Easter, call it April Fool’s…either way, we’ve got one helluva present for you. It’s the seventh episode of the Paranoid Strain. This time, we’re dealing with the concept of False Flags. And with the world’s most (in)famous purveyor of said concept, Alex Jones. Among the many surprising things you may learn in this episode is that, in spite of the fact that Mr. Jones is one million percent full of horseshit, false flags are actually a real thing. Just not the ones he talks about. Jones isn’t our only target, though. Many folks out there make hay out of the idea that the ever-nebulous “they” are always out there, plotting violent events that will pave the way for the public to give up their  freedoms, so “they” can feast on our precious bodily fluids. Or something. Anyway, enjoy. As always, if you’ve got comments, suggestions, or really any... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.7.mp3" length="01:52:52" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 7</itunes:subtitle>
+                <itunes:summary><![CDATA[<p>Call it Easter, call it April Fool’s…either way, we’ve got one helluva present for you. It’s the seventh episode of the Paranoid Strain.</p>
+
+                <p>This time, we’re dealing with the concept of False Flags. And with the world’s most (in)famous purveyor of said concept, Alex Jones. Among the many surprising things you may learn in this episode is that, in spite of the fact that Mr. Jones is one million percent full of horseshit, false flags are actually a real thing. Just not the ones he talks about.</p>
+
+                <p>Jones isn’t our only target, though. Many folks out there make hay out of the idea that the ever-nebulous “they” are always out there, plotting violent events that will pave the way for the public to give up their  freedoms, so “they” can feast on our precious bodily fluids. Or something.</p>
+
+                <p>Anyway, enjoy. As always, if you’ve got comments, suggestions, or really any feedback, please contact us by email at theparanoidstrain at gmail dot com, on Twitter @theparanoidstrain, or at our home on the web, theparanoidstrain.com.</p>
+
+                <p>Bibliograpy</p>
+
+                <ul>
+                    <li><a href="https://amzn.to/2GJleQj">Under the Banner of Heaven</a> - Jon Krakauer</li>
+                    <li><a href="https://amzn.to/2uE8BB7">Legacy of Ashes: The History of the CIA</a> - Tim Weiner</li>
+                    <li><a href="https://amzn.to/2Ee54sP">How We Know What Isn’t So</a> - Thomas Gilovich</li>
+                    <li><a href="https://amzn.to/2uJSTnW">A Time For Deception: False-flags, Technology Suppression, &amp; Deep CIA Secrets</a>- Travis Stone</li>
+                    <li><a href="https://amzn.to/2H5yj45">A Search for the Truth - 9/11: False Flag Terror, 9/11 Deception, The 7/7 London Bombings, The Middle East</a> - Terence Smart</li>
+                    <li><a href="https://amzn.to/2uOT7uj">From Dallas to San Bernardino: False Flags and Conspiracies</a> - Andrew Culver</li>
+                    <li><a href="https://amzn.to/2uGu8Jg">Another French False Flag?: Bloody Tracks From Paris To San Bernardino</a> - Kevin Barrett, editor</li>
+                </ul>
+
+                <p>(Please note–if you buy from the above Amazon Links, they’ll kick us back a few pennies)</p>
+
+                <p>Other links</p>
+
+                <ul>
+                    <li><a href="http://www.radiolab.org/story/outside-westgate/">That Radiolab story</a></li>
+                    <li><a href="https://www.infowars.com/overwhelming-evidence-mounts-indicating-colorado-shooting-staged/">That Infowars article</a></li>
+                    <li><a href="https://shop.economist.com/products/the-world-in-2015">That infamous <em>Economist</em> cover</a> (mouse over it to look at Alice, etc. in detail)</li>
+                    <li><a href="https://www.thisamericanlife.org/radio-archives/episode/614/the-other-mr-president?act=1">That This American Life story</a></li>
+                </ul>
+
+                <p>Attributions</p>
+
+                <ul>
+                    <li>Freesound.org - <a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/">Toiletrolltube: Tera3 Feb 15 Misc</a></li>
+                    <li>Freesound.org <a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Klankbeeld Horror Ambience 80</a></li>
+                    <li><a href="http://imslp.org/wiki/The_Gladiator_(Sousa,_John_Philip)">The Gladiator</a>, by John Philip Sousa, recorded by the United States Marine Band, 2oo6</li>
+                    <li>Hiss-pop-crackle Found on the Partners in Rhyme blog. Public Domain</li>
+                </ul>
+
+                <p>All other music copyright 2016, The Paranoid Strain Orchestra</p>
+                ]]>            </itunes:summary>
+                <itunes:duration>01:52:52</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>Chemtrails and HAARP</title>
+                <link>https://www.theparanoidstrain.com/2018/02/06/chemtrails-and-haarp.html</link>
+                <pubDate>Tue, 06 Feb 2018 00:00:00 GMT</pubDate>
+                <description>Look! Up in the sky! It’s a bird! It’s a plane! It’s a plane spraying evil, toxic, murderous chemtrails! Nope. It’s the Paranoid Strain. Howdy! Having rested up after our three-part exploration of the right-wing Sovereign Citizen and Posse Comitatus movements,  we’re ready to move onto attacking a conspiracy that is far more popular with the other side of the aisle. If you’ve ever wondered why some folks seem to believe those vapor trails that planes emit are a threat to our very way of life, we’ve got the answers. And no, none of them are “they’re RIGHT!” Oh, and the “HAARP” acronym in the title refers to the High Frequency Active Auroral Research Program, an ionospheric research station in Alaska. Why are we talking about that? If you guessed that some misguided conspiracists have decided it is also a threat to our very way of life, give yourself a... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.6.mp3" length="01:21:28" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 6</itunes:subtitle>
+                <itunes:summary><![CDATA[<p>Look! Up in the sky! It’s a bird! It’s a plane! It’s a plane spraying evil, toxic, murderous chemtrails! Nope. It’s the Paranoid Strain.</p>
+
+                <p>Howdy! Having rested up after our three-part exploration of the right-wing Sovereign Citizen and Posse Comitatus movements,  we’re ready to move onto attacking a conspiracy that is far more popular with the other side of the aisle. If you’ve ever wondered why some folks seem to believe those vapor trails that planes emit are a threat to our very way of life, we’ve got the answers. And no, none of them are “they’re RIGHT!”</p>
+
+                <p>Oh, and the “HAARP” acronym in the title refers to the High Frequency Active Auroral Research Program, an ionospheric research station in Alaska. Why are we talking about that? If you guessed that some misguided conspiracists have decided it is also a threat to our very way of life, give yourself a pat on the back. You’ve earned it, slugger.</p>
+
+                <p>As always, if you’ve got comments, suggestions, or really any feedback, please contact us by email at theparanoidstrain at gmail dot com, on Twitter @theparanoidstrain, or at our home on the web, theparanoidstrain.com.</p>
+
+                <p>Bibliograpy</p>
+
+                <ul>
+                    <li><a href="http://amzn.to/2E3C4Vq">Angels Don’t Play This HAARP</a> - Nick Begich and Jeanne Manning</li>
+                    <li><a href="http://amzn.to/2E2KbBv">Global Elites’ Population Cull (Previously Global Elites Poisoning the People)</a>- Terence Smart</li>
+                    <li><a href="http://amzn.to/2B9jPPL">Chemtrails Exposed: A New Manhattan Project</a> - Peter A Kirby</li>
+                </ul>
+
+                <p>(Please note–if you buy from the above Amazon Links, they’ll kick us back a few pennies)</p>
+
+                <p>Other links:</p>
+
+                <ul>
+                    <li>Here’s that Phil Plait <a href="http://blogs.discovermagazine.com/badastronomy/2011/10/25/amazing-video-of-a-bizarre-twisting-dancing-cloud/#.Wnkt1WinFD8">article</a> about the dancing cloud. <a href="https://www.youtube.com/watch?v=E4sY98zsBH0">And a link to the dancing cloud video itself</a>.</li>
+                    <li><a href="http://iopscience.iop.org/article/10.1088/1748-9326/11/8/084011">Quantifying expert consensus against the existence of a secret, large-scale atmospheric spraying program</a> (this is the study debunking chemtrails)</li>
+                    <li><a href="https://www.youtube.com/watch?v=xFQ2_0QNiks&amp;t=1826s">What in the World are They Spraying</a>? (the chemtrail conspiracist documentary)</li>
+                    <li><a href="https://www.coasttocoastam.com/shows/somewhere-in-time-shows">Online Art Bell archive</a></li>
+                </ul>
+
+                <p>Attributions</p>
+
+                <ul>
+                    <li>Freesound.org - <a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/">Toiletrolltube: Tera3 Feb 15 Misc</a></li>
+                    <li>Freesound.org <a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Klankbeeld Horror Ambience 80</a></li>
+                    <li><a href="http://imslp.org/wiki/The_Gladiator_(Sousa,_John_Philip)">The Gladiator</a>, by John Philip Sousa, recorded by the United States Marine Band, 2oo6</li>
+                    <li>Hiss-pop-crackle Found on the Partners in Rhyme blog. Public Domain</li>
+                </ul>
+
+                <p>All other music copyright 2016, The Paranoid Strain Orchestra</p>
+                ]]>            </itunes:summary>
+                <itunes:duration>01:21:28</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>Sovereign Citizens to Wesley Snipes</title>
+                <link>https://www.theparanoidstrain.com/2017/12/05/sovereign-citizens-to-wesley-snipes.html</link>
+                <pubDate>Tue, 05 Dec 2017 00:00:00 GMT</pubDate>
+                <description>Hey there, strangers. We’re publishing our fifth episode. And on time, no less. This is our fifth episode, and the third of our series on the history of right wing, racist movements, and their evolution into the Sovereign Citizens. But most importantly, this is the episode where we explain why Wesley Snipes went to jail. That may seem like a weird point to harp on, but that’s actually the conundrum that we sought to explain when we originally conceived of this podcast, lo these many years ago. Honest to god, we love this episode. It’s got a bunch of great Youtube videos where Sovereigns act crazy, including the all-time grand champeen of Sovereign insanity. It’s got an interview with the guy who traced the spread of Sovereign ideas from white racists to black federal court defendants. And an actual, honest-to-god letter from a real reader who isn’t our daughter! We... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.5.mp3" length="01:35:31" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 5</itunes:subtitle>
+                <itunes:summary><![CDATA[<p>Hey there, strangers. We’re publishing our fifth episode. And on time, no less.</p>
+
+                <p>This is our fifth episode, and the third of our series on the history of right wing, racist movements, and their evolution into the Sovereign Citizens. But most importantly, this is the episode where we explain why Wesley Snipes went to jail. That may seem like a weird point to harp on, but that’s actually the conundrum that we sought to explain when we originally conceived of this podcast, lo these many years ago.</p>
+
+                <p>Honest to god, we love this episode. It’s got a bunch of great Youtube videos where Sovereigns act crazy, including the all-time grand champeen of Sovereign insanity. It’s got an interview with the guy who traced the spread of Sovereign ideas from white racists to black federal court defendants. And an actual, honest-to-god letter from a real reader who isn’t our daughter! We hope you like it as much as we do.</p>
+
+                <p> If you’ve got comments, suggestions, or really any feedback, please contact us by email at theparanoidstrain at gmail dot com, on Twitter @theparanoidstrain, or at our home on the web, theparanoidstrain.com. See you in the new year.</p>
+
+                <p>Bibliograpy</p>
+
+                <ul>
+                    <li><a href="http://amzn.to/2ikIuWJ">Meet Your Strawman</a> by David Robinson</li>
+                    <li><a href="http://amzn.to/2jgqdeb">How Anyone Can Stop Paying Income Taxes</a> by Irwin Schiff</li>
+                    <li><a href="http://amzn.to/2BIrsKQ">Sovereign Citizens vs Christian Citizens: Separating the Wheat from the Chaff</a> by Bill Kumpe</li>
+                    <li>“<a href="https://washingtonmonthly.com/magazine/mayjunejuly-2008/too-weird-for-the-wire-2/">Too Weird for the Wire</a>” by Kevin Carey. Washington Monthly, May/June/July 2008 issue.</li>
+                </ul>
+
+                <p>(Please note–if you buy from the above Amazon Links, they’ll kick us back a few pennies)</p>
+
+                <p>Attributions</p>
+
+                <ul>
+                    <li>Freesound.org - <a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/">Toiletrolltube: Tera3 Feb 15 Misc</a></li>
+                    <li>Freesound.org <a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Klankbeeld Horror Ambience 80</a></li>
+                    <li><a href="http://imslp.org/wiki/The_Gladiator_(Sousa,_John_Philip)">The Gladiator</a>, by John Philip Sousa, recorded by the United States Marine Band, 2oo6</li>
+                    <li>Hiss-pop-crackle Found on the Partners in Rhyme blog. Public Domain</li>
+                </ul>
+
+                <p>All other music copyright 2016, The Paranoid Strain Orchestra</p>
+                ]]>            </itunes:summary>
+                <itunes:duration>01:35:31</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory,Political Science,History,posse comitatus,Sovereign Citizen,Wesley Snipes</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com/uploads/PS Poster Episode 5.png" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>From the Posse to the Sovereigns</title>
+                <link>https://www.theparanoidstrain.com/2017/10/04/from-the-posse-to-the-sovereigns.html</link>
+                <pubDate>Wed, 04 Oct 2017 00:00:00 GMT</pubDate>
+                <description>Hey there, loyal listener. First, we’d like to apologize. This show is coming to you several weeks after we had originally intended. We plan to make it up with you in two different ways. First, we’ve set up a public Google Calendar. We invite you to use it to stay up to date on our unfortunately still sporadic publication schedule. Second, the reason that we are late is that we spent a large chunk of our summer traveling across the United States visiting every conspiracy-related location we could find. We can’t wait to share all of the interviews and other audio we recorded, and we’ll start doing so very soon. Anyhoo, since we’re all back together now, I’m so very pleased to introduce our fourth episode, and the second in our three-part series on the history of U.S. right-wing extremism over the past seventy years or so. In this episode,... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="http://paranoid-strain.s3.amazonaws.com/PS.Ep.4.mp3" length="01:00:31" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 4</itunes:subtitle>
+                <itunes:summary><![CDATA[<p>Hey there, loyal listener. First, we’d like to apologize. This show is coming to you several weeks after we had originally intended. We plan to make it up with you in two different ways.</p>
+
+                <p>First, we’ve set up a public <a href="https://www.google.com/calendar/embed?src=ZGpkbm9lOHF2a2RiMjl2bTFhdTRmcGtyazBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Google Calendar</a>. We invite you to use it to stay up to date on our unfortunately still sporadic publication schedule.</p>
+
+                <p>Second, the reason that we are late is that we spent a large chunk of our summer traveling across the United States visiting every conspiracy-related location we could find. We can’t wait to share all of the interviews and other audio we recorded, and we’ll start doing so very soon.</p>
+
+                <p>Anyhoo, since we’re all back together now, I’m so very pleased to introduce our fourth episode, and the second in our three-part series on the history of U.S. right-wing extremism over the past seventy years or so. In this episode, we travel from the aftermath of the Oklahoma City bombing all the way to the post-Bundy Ranch Oregon standoff that happened in early 2016. In doing so, we’ll see how this way of thinking has evolved into a uniquely 21st century phenomenon. And we hope you enjoy it.</p>
+
+                <p> If you’ve got comments, suggestions, or really any feedback, please contact us by email at theparanoidstrain at gmail dot com, on Twitter @theparanoidstrain, or at our home on the web, theparanoidstrain.com.</p>
+
+                <p><strong>Bibliograpy</strong></p>
+
+                <ul>
+                    <li><a href="&lt;a target=&quot;_blank&quot; href=&quot;https://www.amazon.com/gp/product/0312320418/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0312320418&amp;linkCode=as2&amp;tag=paranoi05-20&amp;linkId=72d6db9acdcfeced58adeb0aaf870162&quot;&gt;The Terrorist Next Door: The Militia Movement and the Radical Right&lt;/a&gt;&lt;img src=&quot;//ir-na.amazon-adsystem.com/e/ir?t=paranoi05-20&amp;l=am2&amp;o=1&amp;a=0312320418&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot; /&gt;">The Terrorist Next Door</a>, by Daniel Levitas</li>
+                    <li><a href="&lt;a target=&quot;_blank&quot; href=&quot;https://www.amazon.com/gp/product/193773594X/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=193773594X&amp;linkCode=as2&amp;tag=paranoi05-20&amp;linkId=dee0434e683c35c2cbeae69e3c04861f&quot;&gt;Only By Blood and Suffering&lt;/a&gt;&lt;img src=&quot;//ir-na.amazon-adsystem.com/e/ir?t=paranoi05-20&amp;l=am2&amp;o=1&amp;a=193773594X&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot; /&gt;">Only by Blood and Suffering</a>, by Lavoy Finicum</li>
+                </ul>
+
+                <p>(Please note–if you buy from those Amazon Links, they’ll kick us back a few pennies)</p>
+
+                <p><strong>Attributions</strong></p>
+
+                <ul>
+                    <li><a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/">Freesound.org - Toiletrolltube</a>: Tera3 Feb 15 Misc</li>
+                    <li>Freesound.org <a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Klankbeeld Horror Ambience 80</a></li>
+                    <li><a href="http://imslp.org/wiki/The_Gladiator_(Sousa,_John_Philip)">The Gladiator</a>, by John Philip Sousa, recorded by the United States Marine Band, 2oo6</li>
+                    <li>Hiss-pop-crackle Found on the Partners in Rhyme blog. Public Domain</li>
+                    <li>All other music copyright 2016, The Paranoid Strain Orchestra</li>
+                </ul>
+                ]]>            </itunes:summary>
+                <itunes:duration>01:00:31</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory,Political Science,History,posse comitatus,militia movement,oklahoma city,timothy mcveigh,Cliven Bundy,Ammon Bundy,Bundy Ranch,SPLC</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com/uploads/ps-ep-4-icon.jpg" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>The Posse Comitatus</title>
+                <link>https://www.theparanoidstrain.com/2017/07/07/the-posse-comitatus.html</link>
+                <pubDate>Fri, 07 Jul 2017 00:00:00 GMT</pubDate>
+                <description>Welcome to the inevitable third episode of The Paranoid Strain. “Well. Took you long enough.” That’s what I hear you thinking. Yes, it’s been a couple of months since our last episode. And for the moment, that’s about the pace you should expect. Each of these shows represents a huge amount of research and production time, and we have a day job, and a kid, and other distractions. Eventually, we hope to come to you on a more frequent basis, but until then, let’s just enjoy our time together. This episode has a special place in our hearts. It’s the first of three parts on the conspiracy-minded, frequently violent, deeply paranoid right-wing extremist movement, which has been known as the “militia”, “freeman on the land”, and currently the “sovereign citizen” ideology, but which started out back in the 1950s with one angry, anti-semitic, delusional man named Bill, who wanted to... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.3.mp3" length="01:00:31" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 3</itunes:subtitle>
+                <itunes:summary><![CDATA[<p class="present-before-paste">Welcome to the inevitable third episode of The Paranoid Strain.</p>
+
+                <p class="present-before-paste">“Well. Took you long enough.” That’s what I hear you thinking. Yes, it’s been a couple of months since our last episode. And for the moment, that’s about the pace you should expect. Each of these shows represents a huge amount of research and production time, and we have a day job, and a kid, and other distractions. Eventually, we hope to come to you on a more frequent basis, but until then, let’s just enjoy our time together.</p>
+
+                <p class="present-before-paste">This episode has a special place in our hearts. It’s the first of three parts on the conspiracy-minded, frequently violent, deeply paranoid right-wing extremist movement, which has been known as the “militia”, “freeman on the land”, and currently the “sovereign citizen” ideology, but which started out back in the 1950s with one angry, anti-semitic, delusional man named Bill, who wanted to form a Posse.</p>
+
+                <p class="present-before-paste">Please subscribe to the show at Apple Podcasts, on Pocketcasts, on Stitcher, or any of your other favorite platforms. And if you’re an Apple user, please do rate and review us on the Apple Podcasts app. It’s super-helpful for helping others find out about the show, and we’ll be your best friend.</p>
+
+                <p class="present-before-paste">If you’ve got comments, suggestions, or really any feedback, please contact us by email at theparanoidstrain at gmail dot com, on Twitter @theparanoidstrain, or at our home on the web, theparanoidstrain.com.</p>
+
+                <p class="present-before-paste">Bibliograpy</p>
+
+                <ul>
+                    <li>T<a href="http://amzn.to/2sSHLz6">he Terrorist Next Door</a>, by Daniel Levitas</li>
+                    <li><a href="http://amzn.to/2tNZIU4">Bitter Harvest</a>, by James Corcoran</li>
+                    <li><a href="http://amzn.to/2tXHFeq">Armed and Dangerous: The Rise of the Survivalist Right</a>, by James Corcoran</li>
+                </ul>
+
+                <p class="present-before-paste"><br /></p>
+
+                <p class="present-before-paste">(Please note–if you buy from those Amazon Links, they’ll kick us back a few pennies)</p>
+
+                <p class="present-before-paste">Attributions</p>
+
+                <ul>
+                    <li>Freesound.org -<a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/"> Toiletrolltube: Tera3 Feb 15 Misc</a></li>
+                    <li>Freesound.org <a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Klankbeeld Horror Ambience 80</a></li>
+                    <li>Excerpt of William Potter Gale “sermon”</li>
+                    <li>Excerpts from a bunch of racist and/or crazy Gordon Kahl fans’ “music”. We’re not giving specific attributions to these assholes</li>
+                    <li>60 Minutes interview with Alan Berg</li>
+                    <li>Inside the Hate Conspiracy: America’s Terrorists, 1995 ABC Documentary</li>
+                    <li>Timothy McVeigh the Turner Diaries Connection, from Nazi America: A Secret History</li>
+                    <li>Comedian Bill Hicks on Waco</li>
+                    <li>NBC Live coverage of the Oklahoma City bombing, 1995</li>
+                    <li><a href="http://imslp.org/wiki/The_Gladiator_(Sousa,_John_Philip)">The Gladiator, by John Philip Sousa</a>, recorded by the United States Marine Band, 2oo6</li>
+                    <li><a href="http://www.partnersinrhyme.com/blog//wp-content/uploads/2011/06/hiss-pop-crackle.mp3">Hiss-pop-crackle</a> Found on the Partners in Rhyme blog. Public Domain</li>
+                    <li>All other music copyright 2016, The Paranoid Strain Orchestra</li>
+                </ul>
+                ]]>            </itunes:summary>
+                <itunes:duration>01:00:31</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory,Political Science,History,posse comitatus,militia movement,william potter gale,oklahoma city,timothy mcveigh</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com/uploads/PS Poster Episode 3.jpg" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>The Protocols</title>
+                <link>https://www.theparanoidstrain.com/2017/04/30/the-protocols.html</link>
+                <pubDate>Sun, 30 Apr 2017 00:00:00 GMT</pubDate>
+                <description>The Protocols of the Elders of Zion: Interview with Professor John Efron Hello and welcome to the second episode of The Paranoid Strain, your skeptical guide to conspiracy theories. “Wait,” you may be thinking. “Did you guys release two episodes at once?” Yep. We sure did. Going forward, we’ll be putting out single episodes, one every other month. But since the first episode is basically an introduction to the topic, we decided to put out a more representative single-topic show as well. Enjoy. This episode, we’re covering the history and impact of the Protocols of the Elders of Zion, a notorious anti-semitic lie that was conclusively debunked nearly a century ago, and yet is still widely believed and hugely influential today. We’ll lead you through the history of this screed, some of the many monsters it influenced, and how it has ruined people’s lives around the world. We’ve got an... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.2.mp3" length="01:01:28" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 2</itunes:subtitle>
+                <itunes:summary><![CDATA[<h3>The Protocols of the Elders of Zion: Interview with Professor John Efron</h3>
+
+                <p>Hello and welcome to the second episode of The Paranoid Strain, your skeptical guide to conspiracy theories.</p>
+
+                <p>“Wait,” you may be thinking. “Did you guys release two episodes at once?” Yep. We sure did. Going forward, we’ll be putting out single episodes, one every other month. But since the first episode is basically an introduction to the topic, we decided to put out a more representative single-topic show as well. Enjoy.</p>
+
+                <p>This episode, we’re covering the history and impact of the Protocols of the Elders of Zion, a notorious anti-semitic lie that was conclusively debunked nearly a century ago, and yet is still widely believed and hugely influential today. We’ll lead you through the history of this screed, some of the many monsters it influenced, and how it has ruined people’s lives around the world. We’ve got an interview with an expert on Jewish history, a pop song by an orthodox rabbi, and we make fun of Henry Ford. What’s not to love?</p>
+
+                <p>Subscribe to the show at iTunes, on Pocketcasts, on Stitcher, or any of your other favorite platforms. And if you’re an iTunes user, please do rate and review us. It’s super-helpful, and we’ll love you forever.</p>
+
+                <p>If you’ve got comments, suggestions, or really any feedback, please contact us by email at theparanoidstrain at gmail dot com, on Twitter @theparanoidstrain, or at our home on the web, theparanoidstrain.com.</p>
+
+                <h5>Bibliograpy</h5>
+
+                <ul>
+                    <li><a href="http://amzn.to/2oh5s6L">Voodoo Histories</a>, by David Aaronovich</li>
+                    <li><a href="http://amzn.to/2oUXYoH">A Culture of Conspiracy</a>, edited by Michael Barkun</li>
+                    <li><a href="http://amzn.to/2oh4qaC">Among the Truthers</a>, by Jonathan Kay</li>
+                    <li><a href="http://amzn.to/2oUWavD">Cults, Conspiracies, and Secret Societies</a>, by Arthur Goldwag</li>
+                </ul>
+
+                <p><br />(Please note–if you buy from those Amazon Links, they’ll kick us back a few pennies)</p>
+
+                <h5>Attributions</h5>
+
+                <ul>
+                    <li>Freesound.org - Toiletrolltube: <a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/">Tera3 Feb 15 Misc</a></li>
+                    <li>Freesound.org Klankbeeld: <a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Horror Ambience 80</a></li>
+                    <li>United States Navy Band: <a href="https://upload.wikimedia.org/wikipedia/commons/d/de/United_States_Navy_Band_-_God_Save_the_Queen.ogg">God Save the Queen</a> Public domain.</li>
+                    <li>Exerpts from Protocols of Zion, Marc Levin director © 2005 ThinkFilm. Fair use for commentary</li>
+                    <li>“<a href="https://www.youtube.com/watch?v=7XrRyqses5U">Protocols</a>”, by Rav Shmuel, from the album Protocols, © JMG 2006</li>
+                    <li>“<a href="http://imslp.org/wiki/The_Gladiator_(Sousa,_John_Philip)">The Gladiator</a>”, by John Philip Sousa, recorded by the United States Marine Band, 2oo6.</li>
+                    <li><a href="http://www.partnersinrhyme.com/blog//wp-content/uploads/2011/06/hiss-pop-crackle.mp3">Hiss-pop-crackle</a> Found on the Partners in Rhyme blog. Public Domain</li>
+                    <li>All other music copyright 2016, The Paranoid Strain Orchestra. Visit our <a href="https://soundcloud.com/user-643405955-296390228/sets/episode-2">Soundcloud</a> page for free downloads. Worth every penny.</li>
+                </ul>
+                ]]>            </itunes:summary>
+                <itunes:duration>01:01:28</itunes:duration>
+                <itunes:keywords>Conspiracy,Conspiracy theory,Anti-semitism,Henry Ford,Nazis,Political Science,History</itunes:keywords>
+                <itunes:image href="https://www.theparanoidstrain.com/uploads/itunes-ep2.jpg" />
+                <itunes:explicit>Yes</itunes:explicit>
+            </item>
+
+            <item>
+                <title>Welcome to the Paranoid Strain</title>
+                <link>https://www.theparanoidstrain.com/2017/01/01/welcome-to-the-paranoid-strain.html</link>
+                <pubDate>Sun, 01 Jan 2017 00:00:00 GMT</pubDate>
+                <description>An Introduction: Interviewee–Lane Greene Hello and welcome to the inaugural episode of The Paranoid Strain, your skeptical guide to conspiracy theories. For our first foray, we’re going to try to stake out the ground that this series will cover. What do we mean by conspiracy theories? What are the historical precedents for modern day conspiracies? What sorts of ideas and attitudes might people who believe in this sort of thinking share? Is America uniquely prone to conspiracist thinking? We’ll provide our answers to all of the above. And make jokes. Thanks for listening. Subscribe to the show at iTunes, on Pocketcasts, on Stitcher, or any of your other favorite platforms. And if you’re an iTunes user, please do rate and review us. It’s super-helpful, and we’ll love you forever. If you’ve got comments, suggestions, or really any feedback, please contact us by email at theparanoidstrain at gmail dot com, on... (read more at TheParanoidStrain.com)</description>
+                <guid isPermaLink="true"></guid>
+                <enclosure url="https://s3.amazonaws.com/paranoid-strain/PS.Ep.1.mp3" length="50:06" type="audio/mp3" />
+                <itunes:author>Fearful Jesuit</itunes:author>
+                <itunes:subtitle>Episode 1</itunes:subtitle>
+                <itunes:summary><![CDATA[<h3>An Introduction: Interviewee–Lane Greene</h3>
+
+                <p>Hello and welcome to the inaugural episode of The Paranoid Strain, your skeptical guide to conspiracy theories.</p>
+
+                <p class="present-before-paste">For our first foray, we’re going to try to stake out the ground that this series will cover. What do we mean by conspiracy theories? What are the historical precedents for modern day conspiracies? What sorts of ideas and attitudes might people who believe in this sort of thinking share? Is America uniquely prone to conspiracist thinking? We’ll provide our answers to all of the above. And make jokes. Thanks for listening.</p>
+
+                <p class="present-before-paste">Subscribe to the show at iTunes, on Pocketcasts, on Stitcher, or any of your other favorite platforms. And if you’re an iTunes user, please do rate and review us. It’s super-helpful, and we’ll love you forever.</p>
+
+                <p class="present-before-paste">If you’ve got comments, suggestions, or really any feedback, please contact us by email at theparanoidstrain at gmail dot com, on Twitter @theparanoidstrain, or at our home on the web, theparanoidstrain.com.</p>
+
+                <h5>Bibliography:</h5>
+
+                <ul>
+                    <li><a href="http://amzn.to/2pJpMdS">Conspiracy</a>, by Daniel Pipes</li>
+                    <li><a href="http://amzn.to/2oQpJhX">The United States of Paranoia</a>, by Jesse Walker</li>
+                </ul>
+
+                <p class="present-before-paste">(Please note–if you buy from those Amazon Links, they’ll kick us back a few pennies)</p>
+
+                <h5>Attributions:</h5>
+
+                <ul>
+                    <li>Freesound.org: Toiletrolltube: “<a href="https://www.freesound.org/people/toiletrolltube/sounds/264088/">Tera3</a>“</li>
+                    <li>Freesound.org: Klankbeeld “<a href="https://www.freesound.org/people/klankbeeld/sounds/261399/">Horror Ambience 80</a>”</li>
+                    <li>Freesound.org Louisiana Five “<a href="http://cylinders.library.ucsb.edu/search.php?queryType=@attr+1=1020&amp;num=1&amp;start=1&amp;query=cylinder0008">Clarinet Squawk</a>”: Found on UCSB Cylinder Audio Archive. Public Domain</li>
+                    <li>Freesound.org - “<a href="https://freesound.org/people/Cheeseheadburger/sounds/170479/">Full Drunken Atmos 1.WAV</a>” by Cheeseheadburger</li>
+                    <li>United States Navy Band: “<a href="http://www.navyband.navy.mil/anthems/ANTHEMS/France.mp3">La Marseillaise</a>” Public domain.</li>
+                    <li>U.S. Army Band: “<a href="http://www.navyband.navy.mil/anthems/ANTHEMS/France.mp3">Yankee Doodle</a>” Public domain</li>
+                    <li>United States Marine Band: “<a href="http://imslp.org/wiki/The_Gladiator_(Sousa,_John_Philip)">The Gladiator</a>”, by John Philip Sousa, recorded 2oo6.</li>
+                    <li><a href="http://www.partnersinrhyme.com/blog//wp-content/uploads/2011/06/hiss-pop-crackle.mp3">Hiss-pop-crackle</a>Found on the Partners in Rhyme blog. Public Domain</li>
+                    <li>Excerpt of Robert Welch speech to John Birch Society in 1974. Found in YouTube video “<a href="https://www.youtube.com/watch?v=AZU0c8DAIU4">Mind blowing speech by Robert Welch in 1958 predicting Insiders plans to destroy America</a>”</li>
+                    <li>Excerpt of “Talkin’ John Birch Society Blues” by Bob Dylan. Audio recording © Sony Music Entertainment. All Rights Reserved. Included under fair use guidelines.</li>
+                    <li>All other music copyright 2016, The Paranoid Strain Orchestra. Visit our <a href="https://soundcloud.com/user-643405955-296390228/sets/episode-1">Soundcloud</a>page for free downloads. Worth every penny.</li>
+                </ul>
+                ]]>
+            </itunes:summary>
+            <itunes:duration>50:06</itunes:duration>
+            <itunes:keywords>Conspiracy,Conspiracy theory,The Paranoid Style in American Politics,Richard Hofstadter,John Birch Society,Robert Welch,Political Science,American History</itunes:keywords>
+            <itunes:image href="https://www.theparanoidstrain.com/uploads/itunes-ep1.jpg" />
+            <itunes:explicit>Yes</itunes:explicit>
+        </item>
+
+    </channel>
+</rss>Í

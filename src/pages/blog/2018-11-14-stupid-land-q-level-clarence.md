@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+draft: false
 title: 'Stupid Land: Q-level Clarence'
 date: 2018-11-14T00:00:10.000Z
 teaserImage: /img/ps-sl-q-clarence-main.jpg

@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+draft: false
 title: Flat Earth
 date: 2018-12-04T00:00:10.000Z
 teaserImage: /img/180206182748-falcon-heavy-launch-5-780x439.jpg

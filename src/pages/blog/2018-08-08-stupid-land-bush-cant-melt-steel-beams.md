@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+draft: false
 title: 'Stupid Land: Bush Can''t Melt Steel Beams'
 date: 2018-08-08T00:00:10.000Z
 teaserImage: /img/ps-sl-8.5-front-page.jpg
