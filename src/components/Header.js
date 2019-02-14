@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import Vars from "../utils/globalVars.js";
-import PSlogo from "../img/ps-logo-long.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faRss } from "@fortawesome/pro-solid-svg-icons";
+import PSlogo from "../img/ps-logo-long-2.png";
+import IconRss from "../img/rss.svg";
+import IconBars from "../img/bars.svg";
 
 const thisBreak = Vars.breakpoint.sm;
 
@@ -74,10 +74,13 @@ const Styled = styled.div`
       }
     }
   }
+  .icon {
+    fill: ${Vars.color.main};
+    width: 16px;
+  }
 `;
 
 class Header extends React.Component {
-  
   state = { showing: true };
 
   toggleMenu = () => {
@@ -108,33 +111,26 @@ class Header extends React.Component {
             />
           </div>
           <div className="hamburger">
-            <FontAwesomeIcon
-              icon={faBars}
-              size="lg"
-              onClick={() => this.toggleMenu()}
-            />
+            <IconBars className="icon" onClick={() => this.toggleMenu()} />
           </div>
         </div>
 
         {showing ? (
           <div className="links">
-            <Link to="/" 
-            className="link">
+            <Link to="/" className="link">
               <strong>Home</strong>
             </Link>
-            <Link to="/about" 
-            className="link">
+            <Link to="/about" className="link">
               <strong>About</strong>
             </Link>
-    
-            <Link to="/contact" 
-            className="link">
+
+            <Link to="/contact" className="link">
               <strong>Contact</strong>
             </Link>
-    
+
             <Link className="link">
               <strong>Subscribe</strong>&nbsp;&nbsp;&nbsp;
-              <FontAwesomeIcon icon={faRss} size="sm" />
+              <IconRss className="icon" />
             </Link>
           </div>
         ) : null}

@@ -149,6 +149,12 @@ module.exports = {
         ]
       }
     },
+    // {
+    //   resolve: "gatsby-plugin-react-svg",
+    //   options: {
+    //     include: /img/
+    //   }
+    // },
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
@@ -167,6 +173,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`
       }
     },
+    "gatsby-plugin-react-svg",
     "gatsby-plugin-purgecss", // must be after other CSS plugins
     "gatsby-plugin-netlify" // make sure to keep it last in the array
   ]

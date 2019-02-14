@@ -4,8 +4,7 @@ import styled from "@emotion/styled";
 import Image from "gatsby-image";
 import Vars from "../utils/globalVars.js";
 import { kebabCase } from "lodash";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTags } from "@fortawesome/pro-solid-svg-icons";
+import IconTags from "../img/tags.svg";
 
 const thisBreak = Vars.breakpoint.lg;
 const Styled = styled.div`
@@ -30,14 +29,14 @@ const Styled = styled.div`
     @media screen and (min-width: ${thisBreak}) {
       opacity: 0.8;
     }
-    
+
     transition: all 0.33s;
     display: flex;
     justify-content: center;
     border-radius: 10px;
     overflow: hidden;
     @media screen and (min-width: ${thisBreak}) {
-      margin-right: ${Vars.spacer}; 
+      margin-right: ${Vars.spacer};
     }
     * {
       flex: 1;
@@ -92,6 +91,10 @@ const Styled = styled.div`
         }
       }
     }
+    .icon {
+      fill: ${Vars.color.lightGray};
+      width: 16px;
+    }
   }
 `;
 
@@ -111,7 +114,7 @@ class PostPreview extends React.Component {
             {this.props.excerpt} <Link to={this.props.link}> (read more)</Link>
           </p>
           <p className="tags">
-            <FontAwesomeIcon icon={faTags} className="icon" size="sm" />
+          <IconTags className="icon"/>
             {this.props.tags.map(tag => (
               <span key={tag + `tag`}>
                 <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>

@@ -12,7 +12,7 @@ const TemplateWrapper = ({ children }) => (
         site {
           siteMetadata {
             title
-            description
+            description 
           }
         }
       }
