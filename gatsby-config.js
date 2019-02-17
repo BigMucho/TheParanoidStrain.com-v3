@@ -1,27 +1,30 @@
+
+const moment = require("moment");
+const urljoin = require("url-join");
+const config = require("./data/SiteConfig");
+
 module.exports = {
   siteMetadata: {
-    title: `The Paranoid Strain`,
-    description: `The podcast that explains why so many people believe ridiculous conspiracy theories.`,
-    generator: `The Paranoid Strain`,
-    feed_url: `https://www.theparanoidstrain.com`,
-    site_url: `https://www.theparanoidstrain.com`,
-    image_url: "http://www.YourSite.com/ImageSize300X300.jpg",
+    title: config.siteTitle,
+    description: config.siteDescription,
+    siteUrl: urljoin(config.siteUrl),
     rssMetadata: {
-      metaLink: `https://www.theparanoidstrain.com`,
-      language: `en-us`,
-      copyright: "2019",
-      webMaster: "theparanoidstrain@gmail.com (The Paranoid Strain)",
-      managingEditor: "theparanoidstrain@gmail.com (The Paranoid Strain)",
-      itunes_keywords: "separate, by, comma, and, space",
-      itunes_category1: "category 1",
-      itunes_category2: "category 2",
-      image: {
-        url: "http://www.YourSite.com/ImageSize300X300.jpg",
-        title: "Image Title",
-        link: "Image link"
-      },
-      itunesName: "The Paranoid Strain",
-      itunesEmail: "theparanoidstrain@gmail.com"
+      timeZone: config.timeZone,
+      site_url: urljoin(config.siteUrl),
+      feed_url: urljoin(config.siteUrl, config.siteRss),
+      title: config.siteTitle,
+      description: config.siteDescription,
+      image_url: `${urljoin(config.siteUrl)}/logos/logo-512.png`,
+      copyright: config.copyright,
+      itunesUser: config.itunes.email + " (" + config.itunes.name + ")",
+      itunesName: config.itunes.name,
+      itunesEmail: config.itunes.email,
+      itunesLanguage: config.itunes.language,
+      itunesCategory1: config.itunes.itunes_category1,
+      itunesCategory2: config.itunes.itunes_category2,
+      itunesKeywords: config.itunes.itunes_keywords,
+      itunesExplicit: config.itunes.itunes_explicit,
+      itunesSubtitle: config.itunes.itunes_subtitle
     }
   },
   plugins: [
@@ -80,117 +83,133 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-feed`,
+      resolve: "gatsby-plugin-feed",
       options: {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
-          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "GatsbyJS Material Starter";
-          return {
-            title: ref.query.site.siteMetadata.title,
-            description: ref.query.site.siteMetadata.description,
-            
-
-            custom_namespaces: {
-              itunes: "http://www.itunes.com/dtds/podcast-1.0.dtd"
-            },
-            custom_elements: [
-              
-              { language: ret.language },
-              { copyright: ret.copyright },
-              { webMaster: ret.webMaster },
-              { managingEditor: ret.managingEditor },
-              {
-                image: [
-                  { url: ret.image.url },
-                  { title: ret.image.title },
-                  { link: ret.image.link }
-                ]
-              },
-              {
-                "itunes:owner": [
-                  { "itunes:name": ret.itunesName },
-                  { "itunes:email": ret.itunesEmail }
-                ]
-              },
-              {
-                "itunes:image": {
-                  _attr: {
-                    href:
-                      "http://example.com/podcasts/everything/AllAboutEverything.jpg"
-                  }
-                }
-              },
-              { "itunes:category": ret.itunes_category1 },
-              { "itunes:category": ret.itunes_category2 },
-              { "itunes:keywords": ret.itunes_keywords }
-            ]
+          const now = moment().format("ddd, D MMM YYYY hh:mm:ss");
+          // const nowNow = new moment("Mon, 06 Mar 2017 21:22:23 +0000");
+          // ret.allMarkdownRemark = ref.query.allMarkdownRemark;
+          ret.generator = config.siteTitle;
+          ret.custom_namespaces = {
+            itunes: "http://www.itunes.com/dtds/podcast-1.0.dtd"
           };
+
+          ret.custom_elements = [
+            { language: ret.itunesLanguage },
+            { copyright: ret.copyright },
+            { webMaster: ret.itunesUser },
+            { managingEditor: ret.itunesUser },
+            {
+              image: [
+                { url: ret.image_url },
+                { title: ret.title },
+                { link: ret.site_url }
+              ]
+            },
+            {
+              "itunes:owner": [
+                { "itunes:name": ret.itunesName },
+                { "itunes:email": ret.itunesEmail }
+              ]
+            },
+            { "itunes:category": ret.itunesCategory1 },
+            { "itunes:category": ret.itunesCategory2 },
+            { "itunes:keywords": ret.itunesKeywords },
+            { "itunes:explicit": ret.itunesExplicit },
+            {
+              "itunes:image": {
+                _attr: {
+                  href: ret.image_url
+                }
+              }
+            },
+            {
+              "atom:link": {
+                _attr: {
+                  href: ret.feed_url,
+                  rel: "self",
+                  type: "application/rss+xml"
+                }
+              }
+            },
+            {"pubDate": now + " " + ret.timeZone},
+            {"itunes:author": ret.itunesName},
+            {"itunes:summary": ret.description},
+            {"itunes:subtitle": ret.itunesSubtitle},
+            {"lastBuildDate": now + " " + ret.timeZone},
+
+
+          ];
+
+          return ret;
         },
         query: `
-          {
-            site {
-              siteMetadata {                
-                title
-                description
-                generator
-                feed_url
-                site_url
-                rssMetadata {
-                  language
-                  copyright
-                  webMaster
-                  managingEditor
-                  image {   
-                    url
-                    title
-                    link
-                  }
-                  itunesName
-                  itunesEmail
-                  itunes_keywords
-                  itunes_category1
-                  itunes_category2
-                }
-              }    
+      {
+        site {
+          siteMetadata {
+            rssMetadata {
+              site_url
+              feed_url
+              title
+              description
+              image_url
+              copyright
+              itunesName
+              itunesEmail
+              itunesUser
+              itunesLanguage  
+              itunesCategory1
+              itunesCategory2  
+              itunesKeywords
+              itunesExplicit   
+              timeZone 
+              itunesSubtitle
             }
           }
-        `,
+        }
+      }
+    `,
         feeds: [
           {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
-                return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug
-                });
-              });
+            serialize(ctx) {
+              const { rssMetadata } = ctx.query.site.siteMetadata;
+              return ctx.query.allMarkdownRemark.edges.map(edge => ({
+                categories: edge.node.frontmatter.tags,
+                date: edge.node.frontmatter.date,
+                title: edge.node.frontmatter.title,
+                description: edge.node.excerpt,
+                url: rssMetadata.site_url + edge.node.fields.slug,
+                guid: rssMetadata.site_url + edge.node.fields.slug,
+                custom_elements: [
+                  { "content:encoded": edge.node.html },
+                  { author: config.userEmail }
+                ]
+              }));
             },
             query: `
-              {
-                allMarkdownRemark(
-                  limit: 1000,
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                  filter: {frontmatter: { draft: { ne: true } }}
-                ) {
-                  edges {
-                    node {
-                      excerpt
-                      html
-                      fields { slug }
-                      frontmatter {
-                        title
-                        date
-                      }
-                    }
+          {
+            allMarkdownRemark(
+              limit: 1000,
+              sort: { order: DESC, fields: [frontmatter___date] },
+            ) {
+              edges {
+                node {
+                  excerpt
+                  html
+                  timeToRead
+                  fields { slug }
+                  frontmatter {
+                    title                   
+                    date
+                    tags
                   }
                 }
               }
-            `,
-            output: "/rss.xml",
-            title: "Gatsby RSS Feed"
+            }
+          }
+        `,
+            output: config.siteRss
           }
         ]
       }
