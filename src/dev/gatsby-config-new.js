@@ -2,10 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `The Paranoid Strain`,
     description: `The podcast that explains why so many people believe ridiculous conspiracy theories.`,
-    generator: `The Paranoid Strain`,
-    feed_url: `https://www.theparanoidstrain.com`,
-    site_url: `https://www.theparanoidstrain.com`,
-    image_url: "http://www.YourSite.com/ImageSize300X300.jpg",
+    link: `https://www.theparanoidstrain.com`,
+    siteUrl: `https://www.theparanoidstrain.com`,
     rssMetadata: {
       metaLink: `https://www.theparanoidstrain.com`,
       language: `en-us`,
@@ -84,18 +82,16 @@ module.exports = {
       options: {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
-          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "GatsbyJS Material Starter";
+          // ret.allMarkdownRemark = ref.query.allMarkdownRemark;
           return {
             title: ref.query.site.siteMetadata.title,
             description: ref.query.site.siteMetadata.description,
-            
+            // link: ref.query.site.siteMetadata.link,
 
             custom_namespaces: {
               itunes: "http://www.itunes.com/dtds/podcast-1.0.dtd"
             },
             custom_elements: [
-              
               { language: ret.language },
               { copyright: ret.copyright },
               { webMaster: ret.webMaster },
@@ -133,9 +129,9 @@ module.exports = {
               siteMetadata {                
                 title
                 description
-                generator
-                feed_url
-                site_url
+                
+                siteUrl
+                site_url: siteUrl
                 rssMetadata {
                   language
                   copyright

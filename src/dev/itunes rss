@@ -1,0 +1,29 @@
+link http://www.YourSite.com
+language en-us
+copyright &#xA9;2013
+webMaster your@email.com (Your Name)
+managingEditor your@email.com (Your Name)
+
+image
+    url http://www.YourSite.com/ImageSize300X300.jpg
+    title Title or description of your logo
+    link http://www.YourSite.com
+
+itunes:owner
+    itunes:name Your Name
+    itunes:email your@email.com
+
+itunes:category Education
+itunes:category Higher Education
+
+itunes:keywords separate, by, comma, and, space
+itunes:explicit no
+itunes:image "http://www.YourSite.com/ImageSize300X300.jpg"
+atom:link href="http://www.YourSite.com/feed.xml" rel="self" type="application/rss+xml"
+pubDate Sun, 01 Jan 2012 00:00:00 EST
+title Verbose title of the podcast
+itunes:author College, school, or department owning the podcast
+description Verbose description of the podcast.
+itunes:summary Duplicate of above verbose description.
+itunes:subtitle Short description of the podcast - 255 character max.
+lastBuildDate Thu, 02 Feb 2012 00:00:00 EST

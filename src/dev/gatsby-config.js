@@ -2,27 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `The Paranoid Strain`,
     description: `The podcast that explains why so many people believe ridiculous conspiracy theories.`,
-    generator: `The Paranoid Strain`,
-    feed_url: `https://www.theparanoidstrain.com`,
-    site_url: `https://www.theparanoidstrain.com`,
-    image_url: "http://www.YourSite.com/ImageSize300X300.jpg",
-    rssMetadata: {
-      metaLink: `https://www.theparanoidstrain.com`,
-      language: `en-us`,
-      copyright: "2019",
-      webMaster: "theparanoidstrain@gmail.com (The Paranoid Strain)",
-      managingEditor: "theparanoidstrain@gmail.com (The Paranoid Strain)",
-      itunes_keywords: "separate, by, comma, and, space",
-      itunes_category1: "category 1",
-      itunes_category2: "category 2",
-      image: {
-        url: "http://www.YourSite.com/ImageSize300X300.jpg",
-        title: "Image Title",
-        link: "Image link"
-      },
-      itunesName: "The Paranoid Strain",
-      itunesEmail: "theparanoidstrain@gmail.com"
-    }
+    siteUrl: `https://www.theparanoidstrain.com`
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -82,80 +62,25 @@ module.exports = {
     {
       resolve: `gatsby-plugin-feed`,
       options: {
-        setup(ref) {
-          const ret = ref.query.site.siteMetadata.rssMetadata;
-          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "GatsbyJS Material Starter";
+        setup() {
           return {
-            title: ref.query.site.siteMetadata.title,
-            description: ref.query.site.siteMetadata.description,
-            
-
-            custom_namespaces: {
-              itunes: "http://www.itunes.com/dtds/podcast-1.0.dtd"
-            },
             custom_elements: [
-              
-              { language: ret.language },
-              { copyright: ret.copyright },
-              { webMaster: ret.webMaster },
-              { managingEditor: ret.managingEditor },
-              {
-                image: [
-                  { url: ret.image.url },
-                  { title: ret.image.title },
-                  { link: ret.image.link }
-                ]
-              },
-              {
-                "itunes:owner": [
-                  { "itunes:name": ret.itunesName },
-                  { "itunes:email": ret.itunesEmail }
-                ]
-              },
-              {
-                "itunes:image": {
-                  _attr: {
-                    href:
-                      "http://example.com/podcasts/everything/AllAboutEverything.jpg"
-                  }
-                }
-              },
-              { "itunes:category": ret.itunes_category1 },
-              { "itunes:category": ret.itunes_category2 },
-              { "itunes:keywords": ret.itunes_keywords }
+              { "some_shit": "ya" }
             ]
-          };
+          }
         },
         query: `
-          {
-            site {
-              siteMetadata {                
-                title
-                description
-                generator
-                feed_url
-                site_url
-                rssMetadata {
-                  language
-                  copyright
-                  webMaster
-                  managingEditor
-                  image {   
-                    url
-                    title
-                    link
-                  }
-                  itunesName
-                  itunesEmail
-                  itunes_keywords
-                  itunes_category1
-                  itunes_category2
-                }
-              }    
+        {
+          site {
+            siteMetadata {
+              title
+              description
+              siteUrl
+              site_url: siteUrl
             }
           }
-        `,
+        }
+      `,
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
