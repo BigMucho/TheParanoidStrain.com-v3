@@ -128,7 +128,7 @@ class Header extends React.Component {
               <strong>Contact</strong>
             </Link>
 
-            <Link className="link">
+            <Link to="rss.xml" className="link">
               <strong>Subscribe</strong>&nbsp;&nbsp;&nbsp;
               <IconRss className="icon" />
             </Link>

@@ -1,4 +1,3 @@
-
 const moment = require("moment");
 const urljoin = require("url-join");
 const config = require("./data/SiteConfig");
@@ -15,7 +14,7 @@ module.exports = {
       title: config.siteTitle,
       description: config.siteDescription,
       image_url: `${urljoin(config.siteUrl)}/logos/logo-512.png`,
-      copyright: config.copyright,
+      // copyright: config.copyright,
       itunesUser: config.itunes.email + " (" + config.itunes.name + ")",
       itunesName: config.itunes.name,
       itunesEmail: config.itunes.email,
@@ -88,6 +87,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           const now = moment().format("ddd, D MMM YYYY hh:mm:ss");
+          const nowYear = moment().format("YYYY");
           // const nowNow = new moment("Mon, 06 Mar 2017 21:22:23 +0000");
           // ret.allMarkdownRemark = ref.query.allMarkdownRemark;
           ret.generator = config.siteTitle;
@@ -97,7 +97,7 @@ module.exports = {
 
           ret.custom_elements = [
             { language: ret.itunesLanguage },
-            { copyright: ret.copyright },
+            { copyright: nowYear },
             { webMaster: ret.itunesUser },
             { managingEditor: ret.itunesUser },
             {
@@ -133,13 +133,11 @@ module.exports = {
                 }
               }
             },
-            {"pubDate": now + " " + ret.timeZone},
-            {"itunes:author": ret.itunesName},
-            {"itunes:summary": ret.description},
-            {"itunes:subtitle": ret.itunesSubtitle},
-            {"lastBuildDate": now + " " + ret.timeZone},
-
-
+            { pubDate: now + " " + ret.timeZone },
+            { "itunes:author": ret.itunesName },
+            { "itunes:summary": ret.description },
+            { "itunes:subtitle": ret.itunesSubtitle },
+            { lastBuildDate: now + " " + ret.timeZone }
           ];
 
           return ret;
@@ -154,7 +152,6 @@ module.exports = {
               title
               description
               image_url
-              copyright
               itunesName
               itunesEmail
               itunesUser
@@ -183,7 +180,20 @@ module.exports = {
                 guid: rssMetadata.site_url + edge.node.fields.slug,
                 custom_elements: [
                   { "content:encoded": edge.node.html },
-                  { author: config.userEmail }
+                  { author: config.userEmail },
+                  {"itunes:summary":edge.node.excerpt},
+                  {"itunes:subtitle":edge.node.excerpt},
+                  {
+                    "enclosure": {
+                      _attr: {
+                        url: edge.node.frontmatter.audioPath,
+                        type: "audio/mpeg",
+                        length: edge.node.frontmatter.audioLength
+                      }
+                    }
+                  },
+
+
                 ]
               }));
             },
@@ -192,6 +202,9 @@ module.exports = {
             allMarkdownRemark(
               limit: 1000,
               sort: { order: DESC, fields: [frontmatter___date] },
+              filter: {
+                frontmatter: {templateKey: {eq: "blog-post"}}
+              }
             ) {
               edges {
                 node {
@@ -203,6 +216,8 @@ module.exports = {
                     title                   
                     date
                     tags
+                    audioPath
+                    audioLength
                   }
                 }
               }
@@ -214,12 +229,6 @@ module.exports = {
         ]
       }
     },
-    // {
-    //   resolve: "gatsby-plugin-react-svg",
-    //   options: {
-    //     include: /img/
-    //   }
-    // },
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {

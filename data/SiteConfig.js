@@ -2,7 +2,7 @@ const config = {
   siteTitle: "The Paranoid Strain", // Site title.
   siteTitleShort: "ParanoidStrain", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "The Paranoid Strain Podcast", // Alternative site title for SEO.
-  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
+  siteLogo: "/img/itunes-cover-fingers.jpg", // Logo used for SEO and manifest.
   siteUrl: "https://theparanoidstrain.com", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
@@ -64,7 +64,7 @@ const config = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2019. The Paranoid Strain" // Copyright string for the footer of the website and RSS feed.
+  // copyright: "Copyright © 2019. The Paranoid Strain" // Copyright string for the footer of the website and RSS feed.
 };
 
 // Validate
