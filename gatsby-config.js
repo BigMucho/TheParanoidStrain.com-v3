@@ -1,6 +1,6 @@
 const moment = require("moment");
 const urljoin = require("url-join");
-const config = require("./data/SiteConfig");
+const config = require("./src/utils/SiteConfig");
 
 module.exports = {
   siteMetadata: {
@@ -13,8 +13,7 @@ module.exports = {
       feed_url: urljoin(config.siteUrl, config.siteRss),
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${urljoin(config.siteUrl)}/logos/logo-512.png`,
-      // copyright: config.copyright,
+      image_url: config.siteUrl + config.siteLogo,
       itunesUser: config.itunes.email + " (" + config.itunes.name + ")",
       itunesName: config.itunes.name,
       itunesEmail: config.itunes.email,
@@ -88,8 +87,7 @@ module.exports = {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           const now = moment().format("ddd, D MMM YYYY hh:mm:ss");
           const nowYear = moment().format("YYYY");
-          // const nowNow = new moment("Mon, 06 Mar 2017 21:22:23 +0000");
-          // ret.allMarkdownRemark = ref.query.allMarkdownRemark;
+          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
           ret.generator = config.siteTitle;
           ret.custom_namespaces = {
             itunes: "http://www.itunes.com/dtds/podcast-1.0.dtd"
@@ -100,13 +98,6 @@ module.exports = {
             { copyright: nowYear },
             { webMaster: ret.itunesUser },
             { managingEditor: ret.itunesUser },
-            {
-              image: [
-                { url: ret.image_url },
-                { title: ret.title },
-                { link: ret.site_url }
-              ]
-            },
             {
               "itunes:owner": [
                 { "itunes:name": ret.itunesName },
@@ -181,10 +172,10 @@ module.exports = {
                 custom_elements: [
                   { "content:encoded": edge.node.html },
                   { author: config.userEmail },
-                  {"itunes:summary":edge.node.excerpt},
-                  {"itunes:subtitle":edge.node.excerpt},
+                  { "itunes:summary": edge.node.excerpt },
+                  { "itunes:subtitle": edge.node.excerpt },
                   {
-                    "enclosure": {
+                    enclosure: {
                       _attr: {
                         url: edge.node.frontmatter.audioPath,
                         type: "audio/mpeg",
@@ -192,8 +183,9 @@ module.exports = {
                       }
                     }
                   },
-
-
+                  { guid: edge.node.frontmatter.audioPath },
+                  { "itunes:duration": edge.node.frontmatter.audioLength },
+                  { pubDate: edge.node.frontmatter.date }
                 ]
               }));
             },

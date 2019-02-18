@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import Vars from "../utils/globalVars.js";
+import SiteConfig from "../utils/SiteConfig.js";
 import PSlogo from "../img/ps-logo-long-2.png";
 import IconRss from "../img/rss.svg";
 import IconBars from "../img/bars.svg";
 
 const thisBreak = Vars.breakpoint.sm;
+const feedLink = SiteConfig.siteUrl + SiteConfig.siteRss;
 
 const Styled = styled.div`
   margin-top: calc(${Vars.spacer} / 2);
@@ -100,6 +102,7 @@ class Header extends React.Component {
 
   render() {
     const { showing } = this.state;
+
     return (
       <Styled>
         <div className="top">
@@ -128,10 +131,12 @@ class Header extends React.Component {
               <strong>Contact</strong>
             </Link>
 
-            <Link to="rss.xml" className="link">
-              <strong>Subscribe</strong>&nbsp;&nbsp;&nbsp;
-              <IconRss className="icon" />
-            </Link>
+            <div className="link">
+              <a href={feedLink}>
+                <strong>Subscribe</strong>&nbsp;&nbsp;&nbsp;
+                <IconRss className="icon" />
+              </a>
+            </div>
           </div>
         ) : null}
       </Styled>
