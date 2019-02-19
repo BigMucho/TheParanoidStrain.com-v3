@@ -13,7 +13,7 @@ const Styled = styled.div`
     padding-left: calc((100% - ${thisBreak}) / 2);
     padding-right: calc((100% - ${thisBreak}) / 2);
     > :first-child {
-      margin-right: ${Vars.spacer};
+      margin-right: calc(${Vars.spacer}*1.5)
     }
   }
 `;

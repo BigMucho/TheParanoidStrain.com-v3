@@ -21,7 +21,7 @@ const Styled = styled.div`
   &:not(:last-child) {
     margin-bottom: calc(${Vars.spacer} * 2);
     @media screen and (min-width: ${thisBreak}) {
-      margin-bottom: ${Vars.spacer};
+      margin-bottom: calc(${Vars.spacer} *1.5)
     }
   }
   .image {

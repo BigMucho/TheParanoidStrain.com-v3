@@ -1,9 +1,18 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
+import styled from "@emotion/styled";
 
-import Header from "../components/Header";
 import "../components/sass.scss";
+
+import MainSidebar from "../components/MainSidebar";
+import Main from "../components/Main";
+import Sidebar from "../components/Sidebar";
+import Header from "../components/Header";
+
+const Styled = styled.div`
+  margin-bottom: 200px;
+`;
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -12,7 +21,7 @@ const TemplateWrapper = ({ children }) => (
         site {
           siteMetadata {
             title
-            description 
+            description
           }
         }
       }
@@ -51,7 +60,6 @@ const TemplateWrapper = ({ children }) => (
             color="#ff4400"
           />
           <meta name="theme-color" content="#fff" />
-
           <meta property="og:type" content="business.business" />
           <meta property="og:title" content={data.site.siteMetadata.title} />
           <meta property="og:url" content="/" />
@@ -60,7 +68,12 @@ const TemplateWrapper = ({ children }) => (
 
         <Header />
 
-        <div>{children}</div>
+        <Styled>
+          <MainSidebar>
+            <Main>{children}</Main>
+            <Sidebar />
+          </MainSidebar>
+        </Styled>
       </div>
     )}
   />

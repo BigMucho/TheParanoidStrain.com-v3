@@ -28,6 +28,9 @@ const Styled = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: ${Vars.spacer};
+  @media screen and (min-width: ${thisBreak}) {
+    margin-bottom: calc(${Vars.spacer}*2);
+  }
 
   img {
     margin-bottom: 0;
@@ -107,11 +110,7 @@ class Header extends React.Component {
       <Styled>
         <div className="top">
           <div className="image">
-            <img
-              src={PSlogo}
-              alt="The Paranoid Strain"
-              onClick={this.alertName}
-            />
+            <img src={PSlogo} alt="The Paranoid Strain" />
           </div>
           <div className="hamburger">
             <IconBars className="icon" onClick={() => this.toggleMenu()} />
@@ -124,7 +123,7 @@ class Header extends React.Component {
               <strong>Home</strong>
             </Link>
             <Link to="/about" className="link">
-              <strong>About</strong>
+              <strong>About Us</strong>
             </Link>
 
             <Link to="/contact" className="link">
